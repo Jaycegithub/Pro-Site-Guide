@@ -1,0 +1,292 @@
+# ProSiteGuide: Facebook posts, Nov 16 – Dec 11, 2026
+
+16 posts, 4 a week (Mon carousel · Tue tip · Thu question · Fri quote/stat). Suggested time: 9:00 AM US Eastern.
+Every fact comes from the linked ProSiteGuide article. Images are in `images/` (carousels: upload all slides in order).
+
+## Week 1
+
+### 1. Mon 2026-11-16 · Carousel: 5 security fixes for this week
+
+**Images:** 01-2026-11-16-carousel-slide1.png, 01-2026-11-16-carousel-slide2.png, 01-2026-11-16-carousel-slide3.png, 01-2026-11-16-carousel-slide4.png, 01-2026-11-16-carousel-slide5.png, 01-2026-11-16-carousel-slide6.png, 01-2026-11-16-carousel-slide7.png  
+**Article:** https://prositeguide.com/law-firm-website-security-checklist/  
+
+```
+Is your firm's website one weak password away from a breach? 🔐
+
+Start with these 5 fixes this week (swipe ➡️):
+1️⃣ Give every person their own login, with the lowest role that works
+2️⃣ Use long, unique passwords in a password manager
+3️⃣ Turn on two-factor authentication for every admin
+4️⃣ Keep WordPress, plugins and themes updated, and delete what you don't use
+5️⃣ Back up files AND database, then actually test a restore
+
+The full 21-item checklist covers who owns each task, a monthly and quarterly routine, and what ABA Formal Opinions 477R and 483 expect 👇
+https://prositeguide.com/law-firm-website-security-checklist/
+
+#LawFirm #WebsiteSecurity #WordPress
+```
+
+### 2. Tue 2026-11-17 · Tip: 3 DNS records that protect your email
+
+**Images:** 02-2026-11-17-tip.png  
+**Article:** https://prositeguide.com/law-firm-business-email/  
+
+```
+Could someone send an email that looks like it came from your firm? 📧
+
+Three DNS records make that much harder:
+✅ SPF: lists the servers allowed to send mail for your domain
+✅ DKIM: adds a digital signature to every message
+✅ DMARC: checks the visible "From" domain matches, and tells inboxes what to do with fakes
+
+Our step-by-step guide shows the exact records for Google Workspace and Microsoft 365, and how to move DMARC from monitoring to reject safely 👇
+https://prositeguide.com/law-firm-business-email/
+
+#LawFirm #EmailSecurity #LegalTech
+```
+
+### 3. Thu 2026-11-19 · Question: Workspace or 365?
+
+**Images:** 03-2026-11-19-question.png  
+**Article:** https://prositeguide.com/google-workspace-vs-microsoft-365-law-firms/  
+
+```
+Quick poll for law firms 👇 Google Workspace or Microsoft 365?
+
+At their main tiers they now cost the same per user, so price isn't the tiebreaker anymore. What usually decides it:
+• Do your lawyers live in desktop Word?
+• Do you need retention and legal holds (Google Vault vs Microsoft Purview)?
+• How well does it work with Clio, MyCase or your practice management tool?
+
+Tell us what your firm uses and why. Our decision guide by firm type is here:
+https://prositeguide.com/google-workspace-vs-microsoft-365-law-firms/
+
+#LegalTech #GoogleWorkspace #Microsoft365
+```
+
+### 4. Fri 2026-11-20 · Quote: Website cost quote
+
+**Images:** 04-2026-11-20-quote.png  
+**Article:** https://prositeguide.com/law-firm-website-cost/  
+
+```
+Before you sign a website quote, know where the money actually goes 💡
+
+"The software side of a law firm website costs a few hundred to about $2,000 a year. The rest is labour, and that is where to compare quotes."
+
+Our cost guide breaks it down line by line with official vendor prices, plus three example budgets (solo DIY, small-firm freelancer, growing-firm agency):
+https://prositeguide.com/law-firm-website-cost/
+
+#LawFirmMarketing #LawFirmWebsite #SmallLawFirm
+```
+
+## Week 2
+
+### 5. Mon 2026-11-23 · Carousel: How Google ranks local law firms
+
+**Images:** 05-2026-11-23-carousel-slide1.png, 05-2026-11-23-carousel-slide2.png, 05-2026-11-23-carousel-slide3.png, 05-2026-11-23-carousel-slide4.png, 05-2026-11-23-carousel-slide5.png, 05-2026-11-23-carousel-slide6.png, 05-2026-11-23-carousel-slide7.png, 05-2026-11-23-carousel-slide8.png  
+**Article:** https://prositeguide.com/local-seo-for-lawyers/  
+
+```
+Why does another firm show up on Google Maps and yours doesn't? 📍
+
+Google ranks local results on 3 factors: relevance, distance and prominence. You can't move your office, but you CAN work on the other two. Swipe for a simple 90-day plan ➡️
+
+The full checklist covers your Google Business Profile, NAP consistency, reviews that follow Google's rules, local links and what to measure:
+https://prositeguide.com/local-seo-for-lawyers/
+
+#LocalSEO #LawFirmMarketing #SmallLawFirm
+```
+
+### 6. Tue 2026-11-24 · Tip: Google Business Profile name tip
+
+**Images:** 06-2026-11-24-tip.png  
+**Article:** https://prositeguide.com/google-business-profile-law-firms/  
+
+```
+Quick Google Business Profile tip for law firms ⚠️
+
+Use your firm's real-world name, exactly as it appears on your sign and letterhead. Adding practice areas or cities to the name (think "Smith Law | Divorce Lawyer Tacoma") breaks Google's guidelines, and keywords in the name are one of the most common reasons law firm profiles get suspended.
+
+Our setup and optimization guide covers categories, service areas, reviews and what to do if you get suspended:
+https://prositeguide.com/google-business-profile-law-firms/
+
+#GoogleBusinessProfile #LocalSEO #LawFirm
+```
+
+### 7. Wed 2026-11-25 · Question: .com, .law or .attorney?
+
+**Images:** 07-2026-11-25-question.png  
+**Article:** https://prositeguide.com/law-vs-com-domain-for-law-firms/  
+**Note:** Posted Wednesday instead of Thursday (US Thanksgiving).  
+
+```
+What's your firm's domain: .com, .law or .attorney? 🌐
+
+A few things most lawyers don't know:
+• .law is only for currently licensed lawyers and law firms, and the registry checks eligibility
+• .attorney and .lawyer say what you do, but don't verify who you are
+• .com still wins on habit: people often type .com by default
+
+Which did you choose? Comment below 👇 And if you're still deciding, here's our full comparison with prices and an SEO answer:
+https://prositeguide.com/law-vs-com-domain-for-law-firms/
+
+#LawFirm #LawFirmMarketing #Domains
+```
+
+### 8. Fri 2026-11-27 · Tip: Don't chase a 100 score
+
+**Images:** 08-2026-11-27-tip.png  
+**Article:** https://prositeguide.com/law-firm-website-speed/  
+
+```
+Stop chasing a 100 PageSpeed score 🏎️
+
+The Lighthouse score is a lab diagnostic. What matters more: passing Core Web Vitals with real-user data, and a site that feels fast on a phone.
+
+The fixes that usually help most, in order:
+1. Better hosting and page caching
+2. A properly sized hero image (and never lazy-load it)
+3. Fewer third-party scripts and unused plugins
+
+Full guide to speeding up a law firm website:
+https://prositeguide.com/law-firm-website-speed/
+
+#WebsiteSpeed #CoreWebVitals #LawFirm
+```
+
+## Week 3
+
+### 9. Mon 2026-11-30 · Carousel: 7 red flags in a website quote
+
+**Images:** 09-2026-11-30-carousel-slide1.png, 09-2026-11-30-carousel-slide2.png, 09-2026-11-30-carousel-slide3.png, 09-2026-11-30-carousel-slide4.png, 09-2026-11-30-carousel-slide5.png, 09-2026-11-30-carousel-slide6.png, 09-2026-11-30-carousel-slide7.png, 09-2026-11-30-carousel-slide8.png, 09-2026-11-30-carousel-slide9.png  
+**Article:** https://prositeguide.com/law-firm-website-cost/  
+
+```
+Getting quotes for a new law firm website? Watch for these 7 red flags 🚩 (swipe ➡️)
+
+The biggest one: the vendor registering YOUR domain in THEIR name. Your domain, hosting, analytics and content should all be in accounts your firm controls.
+
+Our cost guide also lists the 8 questions to ask before you sign:
+https://prositeguide.com/law-firm-website-cost/
+
+#LawFirmWebsite #LawFirmMarketing #SmallLawFirm
+```
+
+### 10. Tue 2026-12-01 · Tip: Renewal price stat
+
+**Images:** 10-2026-12-01-tip.png  
+**Article:** https://prositeguide.com/kinsta-vs-wp-engine-vs-siteground/  
+
+```
+$3.99 a month… until renewal. Then $29.99. 😬
+
+That's SiteGround GrowBig's listed renewal jump, and it's why we compare web hosts on renewal prices, not intro offers.
+
+In our Kinsta vs WP Engine vs SiteGround comparison we add up the real cost over 3 years and give a verdict by firm type:
+https://prositeguide.com/kinsta-vs-wp-engine-vs-siteground/
+
+#WebHosting #WordPress #LawFirm
+```
+
+### 11. Thu 2026-12-03 · Question: Who answers your phone?
+
+**Images:** 11-2026-12-03-question.png  
+**Article:** https://prositeguide.com/smith-ai-vs-ruby/  
+
+```
+Who answers your firm's phone when you can't? ☎️
+
+Receptionist, answering service, voicemail… or AI?
+
+If you're comparing Smith.ai and Ruby: Smith.ai bills per call, Ruby bills per receptionist minute. At their entry plan rates, calls averaging under about 2.8 minutes tend to favor Ruby, while long intake calls favor Smith.ai.
+
+What does your firm use? 👇 Full comparison with worked examples:
+https://prositeguide.com/smith-ai-vs-ruby/
+
+#LegalTech #LawFirm #ClientIntake
+```
+
+### 12. Fri 2026-12-04 · Stat: $1 million overlay order
+
+**Images:** 12-2026-12-04-stat.png  
+**Article:** https://prositeguide.com/law-firm-website-accessibility/  
+
+```
+Thinking about an accessibility "overlay" widget as a quick ADA fix? Read this first ♿
+
+In 2025 the FTC ordered accessiBe to pay $1 million over claims that its widget could make any website WCAG-compliant. Overlays don't replace fixing the site itself.
+
+Start with our 30-minute accessibility self-check, then have a developer fix what you find:
+https://prositeguide.com/law-firm-website-accessibility/
+
+#WebAccessibility #ADA #LawFirm
+```
+
+## Week 4
+
+### 13. Mon 2026-12-07 · Carousel: Redesign without losing rankings
+
+**Images:** 13-2026-12-07-carousel-slide1.png, 13-2026-12-07-carousel-slide2.png, 13-2026-12-07-carousel-slide3.png, 13-2026-12-07-carousel-slide4.png, 13-2026-12-07-carousel-slide5.png, 13-2026-12-07-carousel-slide6.png, 13-2026-12-07-carousel-slide7.png, 13-2026-12-07-carousel-slide8.png  
+**Article:** https://prositeguide.com/law-firm-website-redesign/  
+
+```
+Planning a new website in 2027? Don't let the redesign wipe out your Google rankings 📉
+
+Most ranking drops after a relaunch come from changed URLs with no redirect, or pages that were deleted. Swipe for 6 rules to follow ➡️
+
+Our redesign checklist covers the URL inventory, 301 redirect map, launch day and what to monitor after:
+https://prositeguide.com/law-firm-website-redesign/
+
+#LawFirmWebsite #SEO #LawFirmMarketing
+```
+
+### 14. Tue 2026-12-08 · Tip: Attorney bio first lines
+
+**Images:** 14-2026-12-08-tip.png  
+**Article:** https://prositeguide.com/attorney-bio-page/  
+
+```
+Most attorney bios open with law school. Clients don't care about that first 👩‍⚖️
+
+Write your first two sentences for the client: who you help, and with what. For example: "I represent employees in wage and overtime disputes." Move the résumé details lower on the page.
+
+Our guide includes a fill-in bio template, photo tips and what not to say under advertising rules:
+https://prositeguide.com/attorney-bio-page/
+
+#LawFirmMarketing #AttorneyBio #LawFirm
+```
+
+### 15. Thu 2026-12-10 · Question: How do you send confidential docs?
+
+**Images:** 15-2026-12-10-question.png  
+**Article:** https://prositeguide.com/law-firm-email-encryption/  
+
+```
+How does your firm send confidential documents to clients? 🔒
+
+Encrypted email, a client portal, or regular email?
+
+Worth knowing: standard TLS protects mail between servers, but the message still sits readable in each mailbox. TLS is the floor, not the ceiling.
+
+Tell us your setup 👇 Our guide covers Microsoft 365 and Google Workspace encryption, portals, and what ABA Opinion 477R says:
+https://prositeguide.com/law-firm-email-encryption/
+
+#LegalTech #EmailSecurity #LawFirm
+```
+
+### 16. Fri 2026-12-11 · Tip: Contact form notification tip
+
+**Images:** 16-2026-12-11-tip.png  
+**Article:** https://prositeguide.com/secure-contact-form-law-firm-website/  
+
+```
+Your website contact form could be emailing client details in plain text 📨
+
+A safer setup: the notification just says "New enquiry from Jane Doe: log in to view." The details stay behind a login, not sitting in inboxes.
+
+Our step-by-step guide covers HTTPS, the fields to ask for, spam protection and sending leads to Clio Grow or Lawmatics:
+https://prositeguide.com/secure-contact-form-law-firm-website/
+
+#LawFirm #WebsiteSecurity #ClientIntake
+```
