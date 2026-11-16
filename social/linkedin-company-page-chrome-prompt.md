@@ -9,13 +9,14 @@ I already have a separate personal-style LinkedIn profile named "Pro Site Guide"
 RULES
 - Before you start, check which LinkedIn account is logged in (click "Me"). It must be my personal profile (Jayce Cabangcala), NOT "Pro Site Guide". If it's the wrong one, stop and tell me.
 - Paste every text below EXACTLY as written. Don't rewrite or add anything.
-- When a file picker opens, STOP and ask me to select the file myself. Tell me the file name, then wait until I say "done".
+- The logo and cover image have ALREADY been uploaded. Don't upload, replace or remove any images. Just check they're showing.
 - Before any final "Create page", "Save", "Post", "Disconnect" or "Connect" click, tell me what you're about to do and wait for my OK.
 - Don't post anything, send messages or connection requests, buy anything (no Premium or ads), or change privacy settings.
 - If you see a login, verification, CAPTCHA, payment or anything unexpected, stop and ask me.
 
 ------------------------------------------------------------
 PART 1: CREATE THE COMPANY PAGE
+0. First check whether a ProSiteGuide Company Page already exists (click "Me" → look under "Manage" for "ProSiteGuide"). If it does, don't create another one: open it, go straight to step 4, and only fill in what's missing or different.
 1. On LinkedIn, click "For Business" (grid icon, top right) → "Create a Company Page" → "Company".
 2. Fill in:
    - Name: ProSiteGuide
@@ -24,12 +25,12 @@ PART 1: CREATE THE COMPANY PAGE
    - Industry: IT Services and IT Consulting
    - Organization size: 0-1 employees
    - Organization type: Self-owned
-   - Logo: ask me to upload "linkedin-logo-400.png"
+   - Logo: already uploaded. Don't change it. If the form shows no logo, stop and tell me.
    - Tagline (paste exactly):
 Honest, hands-on guides and WordPress websites for law firms in the US, UK, Canada & Australia.
 3. Tick the verification checkbox (I confirm I can act on behalf of this business), show me a summary, wait for my OK, then click "Create page".
 4. On the new Page, open "Edit page" and set:
-   - Cover image: ask me to upload "linkedin-banner-1128x191.png"
+   - Cover image: already uploaded. Don't change it, just confirm it shows.
    - Description (paste exactly, keeping the blank lines):
 ProSiteGuide helps small law firms build websites that are fast, secure and easy for clients to find.
 
@@ -40,7 +41,7 @@ Behind the guides is Jayce Cabangcala, a WordPress developer with 8+ years of ex
 Free resources: https://prositeguide.com
 Work with us: https://prositeguide.com/work-with-me/
    - Custom button: "Visit website" → https://prositeguide.com/work-with-me/
-   - Location: ask me for my city (Philippines) and add it.
+   - Location (primary): Santo Tomas, Pampanga, Philippines. If the form has separate fields, use City: Santo Tomas, State/Province: Pampanga, Country: Philippines.
 5. Save, then tell me the Page's public URL (linkedin.com/company/...).
 
 ------------------------------------------------------------
@@ -71,7 +72,7 @@ PART 3: RECONNECT JETPACK SOCIAL (WordPress)
 WHEN FINISHED
 Report:
 - The Company Page URL
-- Whether the logo, cover, tagline, description and button saved correctly
+- Whether the logo and cover image are showing, and whether the tagline, description, button and location saved correctly
 - Whether the position and headline on my profile saved
 - Which LinkedIn account Jetpack is now connected to (Company Page or personal profile)
 - Anything that didn't work
