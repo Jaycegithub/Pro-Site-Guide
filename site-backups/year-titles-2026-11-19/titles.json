@@ -1,0 +1,488 @@
+[
+ {
+  "id": 813,
+  "slug": "wordpress-job-board-wp-job-manager",
+  "h1": "How to Add a Job Board or Careers Page to WordPress with WP Job Manager",
+  "seo": "WordPress Job Board: Set Up WP Job Manager (Step by Step)",
+  "desc": "Add a careers page or full job board to WordPress with the free WP Job Manager plugin: setup, shortcodes, Google job schema, add-ons and pricing.",
+  "fm": 823,
+  "c2026": 4
+ },
+ {
+  "id": 811,
+  "slug": "sell-online-courses-wordpress-sensei",
+  "h1": "How to Sell Online Courses on WordPress with Sensei LMS (2026)",
+  "seo": "How to Sell Online Courses on WordPress with Sensei LMS",
+  "desc": "Step-by-step: create and sell online courses on WordPress with Sensei LMS and WooCommerce. Free vs Pro features, pricing and setup.",
+  "fm": 821,
+  "c2026": 3
+ },
+ {
+  "id": 809,
+  "slug": "essential-woocommerce-extensions",
+  "h1": "Essential WooCommerce Extensions for a Small Online Store (2026)",
+  "seo": "Essential WooCommerce Extensions for Small Stores (2026)",
+  "desc": "The WooCommerce extensions a small online store actually needs: payments, shipping, tax, subscriptions, bookings and marketing, with official prices.",
+  "fm": 819,
+  "c2026": 4
+ },
+ {
+  "id": 807,
+  "slug": "pressable-review",
+  "h1": "Pressable Review (2026): Managed WordPress Hosting Plans, Features and Who It&rsquo;s For",
+  "seo": "Pressable Review (2026): Plans, Pricing, Pros and Cons",
+  "desc": "Pressable review: managed WordPress hosting from Automattic. Plan prices, visit limits, backups, Jetpack Security, support, overages and who it suits.",
+  "fm": 817,
+  "c2026": 4
+ },
+ {
+  "id": 805,
+  "slug": "jetpack-review",
+  "h1": "Jetpack Review (2026): What It Does, Free vs Paid, and Is It Worth It?",
+  "seo": "Jetpack Review (2026): Free vs Paid Plans, Pros and Cons",
+  "desc": "An honest Jetpack review: what the free plugin includes, what Pro and Complete add (backups, scan, stats), real pricing, and who should pay for it.",
+  "fm": 816,
+  "c2026": 4
+ },
+ {
+  "id": 762,
+  "slug": "how-to-start-a-wordpress-website",
+  "h1": "How to Start a WordPress Website: A Beginner's Step-by-Step Guide (2026)",
+  "seo": "How to Start a WordPress Website: Beginner Guide 2026",
+  "desc": "Learn how to start a WordPress website: WordPress.org vs .com, domain, hosting, install, settings, theme, pages, plugins and a launch checklist.",
+  "fm": 758,
+  "c2026": 6
+ },
+ {
+  "id": 701,
+  "slug": "connect-namecheap-domain-to-hosting",
+  "h1": "How to Connect a Namecheap Domain to Kinsta, SiteGround or Hostinger (2026)",
+  "seo": "How to Connect a Namecheap Domain to Kinsta, SiteGround or Hostinger (2026) - ProSiteGuide",
+  "desc": "Point a Namecheap domain to Kinsta, SiteGround or Hostinger without breaking email: when to change nameservers, when to add A and CNAME records, and how to test.",
+  "fm": 720,
+  "c2026": 4
+ },
+ {
+  "id": 700,
+  "slug": "register-law-firm-domain-namecheap",
+  "h1": "How to Register a Law Firm Domain on Namecheap (2026)",
+  "seo": "How to Register a Law Firm Domain on Namecheap (2026) - ProSiteGuide",
+  "desc": "A step-by-step walkthrough for registering a law firm domain on Namecheap: real prices and renewals, which checkout extras to skip, how to secure the account, and how to connect your website and email.",
+  "fm": 713,
+  "c2026": 6
+ },
+ {
+  "id": 695,
+  "slug": "legal-directories-for-lawyers",
+  "h1": "Online Legal Directories: Which Are Worth It for Small Firms? (Avvo, Justia, FindLaw, Martindale, 2026)",
+  "seo": "Legal Directories for Lawyers: Which Are Worth It?",
+  "desc": "Legal directories for lawyers compared: Avvo, Justia, FindLaw, Martindale and Super Lawyers, free vs paid, NAP consistency and how to judge the spend.",
+  "fm": 691,
+  "c2026": 8
+ },
+ {
+  "id": 686,
+  "slug": "law-firm-phone-system",
+  "h1": "VoIP Phone Systems for Law Firms: RingCentral vs Nextiva vs Ooma (2026)",
+  "seo": "VoIP Phone System for Law Firms: 3 Vendors Compared",
+  "desc": "Compare a VoIP phone system for law firms: RingCentral, Nextiva and Ooma pricing, call recording, texting, Clio, routing and porting, as of Nov 2026.",
+  "fm": 682,
+  "c2026": 11
+ },
+ {
+  "id": 611,
+  "slug": "law-firm-website-hacked",
+  "h1": "Law Firm Website Hacked? A Step-by-Step Recovery Plan (2026)",
+  "seo": "Law Firm Website Hacked? Recovery Plan (2026)",
+  "desc": "Law firm website hacked? Follow this calm step-by-step plan: first hour, passwords, scans, cleanup or restore, Google review and ABA Opinion 483 duties.",
+  "fm": 607,
+  "c2026": 5
+ },
+ {
+  "id": 606,
+  "slug": "sucuri-review-law-firms",
+  "h1": "Sucuri Review for Law Firms (2026): Website Firewall and Malware Cleanup",
+  "seo": "Sucuri Review for Law Firms (2026) | ProSiteGuide",
+  "desc": "Sucuri review for law firms: how the cloud website firewall works, plan prices as of November 2026, malware cleanup terms, and when your host is enough.",
+  "fm": 602,
+  "c2026": 11
+ },
+ {
+  "id": 601,
+  "slug": "set-up-1password-law-firm",
+  "h1": "How to Set Up 1Password for a Small Law Firm: Vaults, Sharing and Offboarding (2026)",
+  "seo": "Set Up 1Password for Business: Law Firm Guide (2026)",
+  "desc": "Set up 1Password for business at a small law firm: plan choice, owners, vault structure, 2FA, vendor sharing, recovery and offboarding, with a 30-day checklist.",
+  "fm": 597,
+  "c2026": 8
+ },
+ {
+  "id": 596,
+  "slug": "1password-review-law-firms",
+  "h1": "1Password Review for Law Firms (2026): Teams vs Business",
+  "seo": "1Password Review for Law Firms (2026): Teams vs Business",
+  "desc": "1Password review for law firms: Teams Starter Pack vs Business pricing, Secret Key security, shared vaults, SSO, recovery and Travel Mode, Nov 2026.",
+  "fm": 592,
+  "c2026": 10
+ },
+ {
+  "id": 591,
+  "slug": "register-law-firm-domain-godaddy",
+  "h1": "How to Register a Law Firm Domain on GoDaddy (and Skip the Upsells) (2026)",
+  "seo": "Register a Domain on GoDaddy: Law Firm Guide (2026)",
+  "desc": "How to register a domain on GoDaddy for a law firm: pick the name, skip the upsells, secure the account, and set DNS for your website and email.",
+  "fm": 587,
+  "c2026": 5
+ },
+ {
+  "id": 586,
+  "slug": "godaddy-review-law-firms",
+  "h1": "GoDaddy Review for Law Firms (2026): Domains, Email and Website Builder",
+  "seo": "GoDaddy Review for Law Firms (2026)",
+  "desc": "A balanced GoDaddy review for small law firms: domains, privacy, Microsoft 365 email, website builder, upsells, and who should choose another registrar.",
+  "fm": 582,
+  "c2026": 6
+ },
+ {
+  "id": 581,
+  "slug": "hostinger-vs-siteground-law-firms",
+  "h1": "Hostinger vs SiteGround for Law Firms: Which Budget Host Is Better? (2026)",
+  "seo": "Hostinger vs SiteGround for Law Firms (2026)",
+  "desc": "Hostinger vs SiteGround for small law firm WordPress sites: 3-year cost, backups, staging, email, support and data centers, with November 2026 prices.",
+  "fm": 577,
+  "c2026": 11
+ },
+ {
+  "id": 576,
+  "slug": "build-law-firm-website-hostinger",
+  "h1": "How to Build a Law Firm Website on Hostinger (Step by Step, 2026)",
+  "seo": "Build a Law Firm Website on Hostinger: 2026 Guide",
+  "desc": "How to build a law firm website on Hostinger with WordPress: plan, domain, hPanel install, core pages, SSL, backups, email, security and launch checklist.",
+  "fm": 572,
+  "c2026": 8
+ },
+ {
+  "id": 563,
+  "slug": "wordpress-security-plugins-law-firms",
+  "h1": "Best WordPress Security Plugins for Law Firms: Wordfence vs Sucuri vs Solid Security (2026)",
+  "seo": "Best WordPress Security Plugins for Law Firms (2026)",
+  "desc": "Compare Wordfence, Sucuri and Solid Security for law firm WordPress sites: firewalls, 2FA, malware scans, cleanup and verified November 2026 prices.",
+  "fm": 559,
+  "c2026": 9
+ },
+ {
+  "id": 551,
+  "slug": "password-manager-law-firms",
+  "h1": "Best Password Managers for Law Firms: 1Password vs Bitwarden vs Keeper (2026)",
+  "seo": "Best Password Manager for Law Firms (2026 Compared)",
+  "desc": "Password manager for law firms compared: 1Password, Bitwarden and Keeper prices as of Nov 2026, shared vaults, SSO, offboarding and published audits.",
+  "fm": 547,
+  "c2026": 10
+ },
+ {
+  "id": 543,
+  "slug": "google-local-services-ads-lawyers",
+  "h1": "Google Local Services Ads for Lawyers: How They Work, Costs and Setup (2026)",
+  "seo": "Google Local Services Ads for Lawyers: Costs &amp; Setup",
+  "desc": "Google local services ads for lawyers: how pay-per-lead billing, Google Verified screening, budgets, ranking and lead credits work, plus setup steps.",
+  "fm": 539,
+  "c2026": 5
+ },
+ {
+  "id": 447,
+  "slug": "siteground-review",
+  "h1": "SiteGround Review for Law Firms (2026): Is It the Best Value Managed WordPress Host?",
+  "seo": "SiteGround Review for Law Firms (2026): Pricing &amp; Renewals",
+  "desc": "SiteGround review for law firms: November 2026 intro vs renewal pricing, 3-year costs, backups, staging, email, pros and cons, and which plan to pick.",
+  "fm": 442,
+  "c2026": 14
+ },
+ {
+  "id": 368,
+  "slug": "ga4-search-console-law-firms",
+  "h1": "Google Analytics for Law Firms: GA4 and Search Console Setup and What to Track (2026)",
+  "seo": "Google Analytics for Law Firms: GA4 + Search Console 2026",
+  "desc": "Google Analytics for law firms, step by step: set up GA4 and Search Console, track forms, calls and bookings as key events, keep client data out, report monthly",
+  "fm": 363,
+  "c2026": 8
+ },
+ {
+  "id": 362,
+  "slug": "e-signature-law-firms",
+  "h1": "E-Signature Software for Law Firms: DocuSign vs Adobe Acrobat Sign vs Dropbox Sign (2026)",
+  "seo": "E-Signature Software for Law Firms: DocuSign vs Adobe (2026)",
+  "desc": "Compare e-signature software for law firms: DocuSign, Adobe Acrobat Sign and Dropbox Sign prices, envelope limits, bulk send, payments and ESIGN/UETA basics.",
+  "fm": 357,
+  "c2026": 13
+ },
+ {
+  "id": 356,
+  "slug": "law-firm-email-encryption",
+  "h1": "Law Firm Email Encryption: How to Send Confidential Email Securely (2026)",
+  "seo": "Law Firm Email Encryption: Secure Client Email (2026)",
+  "desc": "Law firm email encryption explained: TLS vs message vs end-to-end, Microsoft 365 and Gmail setup, Virtru, Proton, Hushmail, and what ABA Opinion 477R expects.",
+  "fm": 351,
+  "c2026": 8
+ },
+ {
+  "id": 350,
+  "slug": "appointment-scheduling-law-firms",
+  "h1": "Appointment Scheduling Software for Law Firms: Calendly vs Acuity Scheduling vs Microsoft Bookings (2026)",
+  "seo": "Law Firm Scheduling: Calendly vs Acuity vs Bookings 2026",
+  "desc": "Compare appointment scheduling software for law firms: Calendly, Acuity and Microsoft Bookings pricing, intake forms, payments, reminders and WordPress setup.",
+  "fm": 345,
+  "c2026": 17
+ },
+ {
+  "id": 344,
+  "slug": "law-firm-schema-markup",
+  "h1": "Schema Markup for Law Firms: LegalService, Attorney and Local Business Explained (2026)",
+  "seo": "Schema Markup for Law Firms: LegalService &amp; Attorney (2026)",
+  "desc": "Schema markup for law firms, explained: which types to use (LegalService, Person, Breadcrumb), JSON-LD examples, plugin setup, duplicates and validation.",
+  "fm": 339,
+  "c2026": 10
+ },
+ {
+  "id": 338,
+  "slug": "wp-engine-review",
+  "h1": "WP Engine Review for Law Firms (2026): Managed WordPress Hosting Worth the Price?",
+  "seo": "WP Engine Review for Law Firms (2026): Worth the Price?",
+  "desc": "WP Engine review for law firms: 2026 pricing, the renewal catch, backups, staging, support and cancellation terms, plus how it compares with Kinsta and SiteGround.",
+  "fm": 333,
+  "c2026": 18
+ },
+ {
+  "id": 324,
+  "slug": "local-seo-for-lawyers",
+  "h1": "Local SEO for Lawyers: A Practical Checklist for Small Firms (2026)",
+  "seo": "Local SEO for Lawyers: 2026 Checklist for Small Firms",
+  "desc": "Local SEO for lawyers, step by step: Google&#039;s 3 local ranking factors, location pages vs doorway pages, NAP, compliant reviews, local links and a 90-day plan.",
+  "fm": 319,
+  "c2026": 6
+ },
+ {
+  "id": 318,
+  "slug": "law-firm-website-redesign",
+  "h1": "Law Firm Website Redesign: How to Relaunch Without Losing Rankings (2026 Checklist)",
+  "seo": "Law Firm Website Redesign Without Losing Rankings (2026)",
+  "desc": "Plan a law firm website redesign without losing SEO: URL inventory, keep/merge/remove decisions, a 301 redirect map, pre-launch QA and post-launch monitoring.",
+  "fm": 313,
+  "c2026": 7
+ },
+ {
+  "id": 312,
+  "slug": "law-firm-website-speed",
+  "h1": "How to Speed Up a Law Firm Website: Core Web Vitals Guide (2026)",
+  "seo": "Law Firm Website Speed: Core Web Vitals Guide (2026)",
+  "desc": "Improve law firm website speed: measure LCP, INP and CLS in PageSpeed Insights and Search Console, then fix hosting, caching, images and scripts in order.",
+  "fm": 307,
+  "c2026": 7
+ },
+ {
+  "id": 304,
+  "slug": "attorney-bio-page",
+  "h1": "How to Write an Attorney Bio Page That Builds Trust (With Template, 2026)",
+  "seo": "Attorney Bio Page: How to Write One (+ Template, 2026)",
+  "desc": "How to write an attorney bio page that builds trust: structure, fill-in template, first vs third person, length, Person schema and advertising-rule cautions.",
+  "fm": 299,
+  "c2026": 6
+ },
+ {
+  "id": 263,
+  "slug": "microsoft-365-setup-law-firms",
+  "h1": "How to Set Up Microsoft 365 for a Law Firm (Step by Step, 2026)",
+  "seo": "Microsoft 365 Setup for Law Firms: Step-by-Step (2026)",
+  "desc": "Microsoft 365 setup for law firms: choose a plan, add your domain, turn on MFA, lock down sharing, set retention and migrate email. Settings checklist included.",
+  "fm": 257,
+  "c2026": 12
+ },
+ {
+  "id": 256,
+  "slug": "google-workspace-setup-law-firms",
+  "h1": "How to Set Up Google Workspace for a Law Firm (Step by Step, 2026)",
+  "seo": "Google Workspace Setup for Law Firms: 12 Steps (2026)",
+  "desc": "Google Workspace setup for law firms, step by step: choose an edition, verify your domain, enforce 2SV, restrict Drive sharing, set up Vault and migrate email.",
+  "fm": 251,
+  "c2026": 8
+ },
+ {
+  "id": 250,
+  "slug": "best-domain-registrars-law-firms",
+  "h1": "Best Domain Registrars for Law Firms (2026)",
+  "seo": "Best Domain Registrar for Law Firms (2026 Comparison)",
+  "desc": "Compare Cloudflare, Porkbun, Namecheap, Squarespace, Hostinger and GoDaddy for law firms: .com renewal prices, .law support, privacy, 2FA and transfer steps.",
+  "fm": 245,
+  "c2026": 14
+ },
+ {
+  "id": 244,
+  "slug": "best-wordpress-plugins-law-firms",
+  "h1": "Best WordPress Plugins for Law Firms (2026): The Essential Stack",
+  "seo": "Best WordPress Plugins for Law Firms (2026): Essential Stack",
+  "desc": "The best WordPress plugins for law firms in 2026, by job: forms, SEO, security, backups, SMTP and spam, with verified prices and a minimal recommended stack.",
+  "fm": 239,
+  "c2026": 15
+ },
+ {
+  "id": 238,
+  "slug": "best-wordpress-themes-law-firms",
+  "h1": "Best WordPress Themes for Law Firms (2026)",
+  "seo": "Best WordPress Themes for Law Firms in 2026 (Compared)",
+  "desc": "Compare the best WordPress themes for law firms in 2026: Kadence, Blocksy, GeneratePress, Astra, Twenty Twenty-Five and Hello Elementor, with verified pricing.",
+  "fm": 232,
+  "c2026": 28
+ },
+ {
+  "id": 231,
+  "slug": "google-business-profile-law-firms",
+  "h1": "Google Business Profile for Law Firms: Setup and Optimization Guide (2026)",
+  "seo": "Google Business Profile for Law Firms: 2026 Setup Guide",
+  "desc": "Set up and optimize a Google Business Profile for your law firm: naming rules, lawyer vs firm profiles, verification, reviews, ABA 496 replies and suspensions.",
+  "fm": 226,
+  "c2026": 8
+ },
+ {
+  "id": 225,
+  "slug": "hostinger-review",
+  "h1": "Hostinger Review for Law Firms (2026): Is Cheap Hosting Good Enough?",
+  "seo": "Hostinger Review for Law Firms (2026): Pricing &amp; Limits",
+  "desc": "Hostinger review for law firms: verified November 2026 pricing, renewal and 4-year costs, backups, email, limits, pros and cons, and Kinsta/SiteGround options.",
+  "fm": 220,
+  "c2026": 17
+ },
+ {
+  "id": 219,
+  "slug": "practice-area-pages",
+  "h1": "How to Write Practice Area Pages That Rank and Convert (Law Firm Guide, 2026)",
+  "seo": "Practice Area Pages: How to Write Ones That Rank (2026)",
+  "desc": "How to write law firm practice area pages that rank and convert: page structure, hub vs spoke, local signals, LegalService schema, ethics rules and tracking.",
+  "fm": 214,
+  "c2026": 6
+ },
+ {
+  "id": 213,
+  "slug": "law-firm-website-accessibility",
+  "h1": "Law Firm Website Accessibility: ADA and WCAG 2.2 Explained for Small Firms (2026)",
+  "seo": "Law Firm Website Accessibility: ADA &amp; WCAG 2.2 (2026)",
+  "desc": "What ADA and WCAG 2.2 mean for small law firm websites: common issues and fixes, a 30-minute self-check, why overlays fall short, and accessibility statements.",
+  "fm": 208,
+  "c2026": 8
+ },
+ {
+  "id": 207,
+  "slug": "cloudflare-law-firm-website",
+  "h1": "Cloudflare for Law Firm Websites: Free Security and Speed, Set Up Right (2026)",
+  "seo": "Cloudflare for Law Firm Websites: Setup Guide (2026)",
+  "desc": "How to set up Cloudflare&#039;s free plan on a law firm WordPress site: Full (strict) SSL, WAF, Bot Fight Mode, Turnstile, safe caching and email DNS records.",
+  "fm": 202,
+  "c2026": 9
+ },
+ {
+  "id": 187,
+  "slug": "smith-ai-vs-ruby",
+  "h1": "Smith.ai vs Ruby (2026): Which Virtual Receptionist Is Right for Your Law Firm?",
+  "seo": "Smith.ai vs Ruby (2026): Law Firm Receptionist Compared",
+  "desc": "Smith.ai vs Ruby for law firms: per-call vs per-minute pricing as of November 2026, AI vs human answering, intake, Clio/MyCase integrations and which fits you.",
+  "fm": 185,
+  "c2026": 12
+ },
+ {
+  "id": 184,
+  "slug": "kinsta-vs-wp-engine-vs-siteground",
+  "h1": "Kinsta vs WP Engine vs SiteGround for Law Firm Websites (2026)",
+  "seo": "Kinsta vs WP Engine vs SiteGround for Law Firms (2026)",
+  "desc": "Kinsta vs WP Engine vs SiteGround for law firm websites: verified 2026 prices, renewals, backups, staging, email and support, plus a 3-year cost example.",
+  "fm": 182,
+  "c2026": 10
+ },
+ {
+  "id": 181,
+  "slug": "kinsta-review",
+  "h1": "Kinsta Review for Law Firms (2026): Is Managed WordPress Hosting Worth It?",
+  "seo": "Kinsta Review for Law Firms (2026): Is It Worth It?",
+  "desc": "Kinsta review for small law firms: 2026 pricing from $30/mo, what&#039;s included (backups, staging, security), what&#039;s not (email), overage fees and refund terms.",
+  "fm": 179,
+  "c2026": 15
+ },
+ {
+  "id": 119,
+  "slug": "google-workspace-vs-microsoft-365-law-firms",
+  "h1": "Google Workspace vs Microsoft 365 for Law Firms (2026): Prices, eDiscovery and Which to Choose",
+  "seo": "Google Workspace vs Microsoft 365 for Law Firms (2026)",
+  "desc": "Google Workspace vs Microsoft 365 for small law firms: current per-user prices, desktop Word needs, Vault vs Purview retention, security and a decision guide.",
+  "fm": 117,
+  "c2026": 9
+ },
+ {
+  "id": 114,
+  "slug": "law-firm-website-cost",
+  "h1": "How Much Does a Law Firm Website Cost in 2026?",
+  "seo": "Law Firm Website Cost in 2026: Line-Item Budget Guide",
+  "desc": "What a law firm website really costs in 2026: domain, hosting, builder, email and labour priced line by line, plus three worked budgets for solo to growing firms.",
+  "fm": 112,
+  "c2026": 20
+ },
+ {
+  "id": 50,
+  "slug": "law-firm-business-email",
+  "h1": "Law Firm Email Setup: How to Get Professional Domain Email (SPF, DKIM and DMARC Included)",
+  "seo": "Law Firm Email Setup: Domain Email, SPF, DKIM &amp; DMARC",
+  "desc": "Step-by-step law firm email setup: choose an address format, verify your domain, add MX, SPF, DKIM and DMARC records, and secure client email with 2FA.",
+  "fm": 105,
+  "c2026": 3
+ },
+ {
+  "id": 48,
+  "slug": "law-vs-com-domain-for-law-firms",
+  "h1": ".law vs .com vs .attorney: Which Domain Should Your Law Firm Use?",
+  "seo": ".law vs .com vs .attorney: Best Law Firm Domain (2026)",
+  "desc": ".law vs .com for law firms: eligibility rules, real prices as of Nov 2026, Google&#039;s SEO stance, naming tips, bar rules, and how to register and redirect.",
+  "fm": 101,
+  "c2026": 10
+ },
+ {
+  "id": 75,
+  "slug": "secure-contact-form-law-firm-website",
+  "h1": "How to Add a Secure Contact Form to Your Law Firm Website",
+  "seo": "Secure Contact Form for Law Firm Websites (2026 Guide)",
+  "desc": "How to set up a secure contact form for a law firm website: HTTPS, minimal fields, Rule 1.18 disclaimers, spam protection, WordPress plugins and CRM intake.",
+  "fm": 98,
+  "c2026": 5
+ },
+ {
+  "id": 72,
+  "slug": "squarespace-vs-wordpress-vs-wix-law-firms",
+  "h1": "Squarespace vs WordPress vs Wix for Law Firms: Which Should You Use?",
+  "seo": "Squarespace vs WordPress vs Wix for Law Firms (2026)",
+  "desc": "Squarespace vs WordPress vs Wix for law firms: 2026 pricing, SEO control, booking, maintenance and portability compared, plus a decision guide by firm type.",
+  "fm": 95,
+  "c2026": 9
+ },
+ {
+  "id": 66,
+  "slug": "move-law-firm-website-new-host",
+  "h1": "How to Move Your Law Firm Website to a New Host Without Downtime",
+  "seo": "Move Your Law Firm Website to a New Host (No Downtime)",
+  "desc": "Step-by-step guide to move a law firm website to a new host without downtime: checklist, DNS TTL, SSL, email (MX) and intake form tests, plus a rollback plan.",
+  "fm": 91,
+  "c2026": 4
+ },
+ {
+  "id": 62,
+  "slug": "law-firm-website-security-checklist",
+  "h1": "Law Firm Website Security Checklist (WordPress Edition)",
+  "seo": "Law Firm Website Security Checklist for WordPress (2026)",
+  "desc": "A prioritized law firm website security checklist for WordPress: 2FA, updates, backups, HTTPS, firewalls, forms, monitoring and an incident plan, with ABA guidance.",
+  "fm": 88,
+  "c2026": 4
+ },
+ {
+  "id": 59,
+  "slug": "law-firm-website-maintenance",
+  "h1": "Law Firm Website Maintenance: What It Involves and What It Costs",
+  "seo": "Law Firm Website Maintenance: Tasks, Schedule &amp; Costs",
+  "desc": "What law firm website maintenance includes, a weekly-to-annual schedule, sourced costs for hosting, licenses and care plans, and DIY vs agency trade-offs.",
+  "fm": 85,
+  "c2026": 11
+ }
+]
