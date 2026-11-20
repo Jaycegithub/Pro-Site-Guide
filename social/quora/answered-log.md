@@ -3,3 +3,4 @@ One row per drafted answer. The daily task reads this to avoid repeating questio
 
 | Date | Question URL | Article linked | Posted? |
 |---|---|---|---|
+| 2026-11-20 | https://www.quora.com/Is-Jetpack-Boost-worth-it | jetpack-review | no |
