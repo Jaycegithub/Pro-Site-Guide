@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ProSiteGuide//Daily reminder//EN
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Manila
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:PHT
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:prositeguide-daily-growth-20261121@prositeguide.com
+DTSTAMP:20261120T060000Z
+DTSTART;TZID=Asia/Manila:20261121T200000
+DTEND;TZID=Asia/Manila:20261121T203000
+RRULE:FREQ=DAILY
+SUMMARY:ProSiteGuide: daily growth tasks (Quora\, Facebook\, LinkedIn)
+DESCRIPTION:Daily ProSiteGuide growth (30 min)\n1. Quora: answer 1 question (link in every other answer\, add 'Disclosure: it's my site'). Need a draft? Ask Claude: 'Quora answer'.\n2. Facebook group: 1 post from social/facebook-group-posts.md\, reply to every comment in the first hour.\n3. LinkedIn: comment on 5 posts\, send 10 connection requests (no pitch).\n4. Reddit (2-3x a week): answer 1-2 fresh questions\, link only where allowed.\n5. Pinterest (2-3x a week): pin 1 image.\nFacebook Page: https://www.facebook.com/prositeguide/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ProSiteGuide daily growth tasks
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
