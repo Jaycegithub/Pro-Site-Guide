@@ -1,0 +1,144 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:540px;height:960px;overflow:hidden;background:#0B1120;font-family:Inter,sans-serif;color:#fff}
+#bg{position:absolute;inset:0;background:radial-gradient(circle at 50% 38%,#1E3A8A 0%,#0F172A 48%,#070B16 100%)}
+#glow{position:absolute;width:520px;height:520px;left:10px;top:120px;border-radius:50%;background:radial-gradient(circle,rgba(59,130,246,.28),rgba(59,130,246,0) 65%)}
+.layer{position:absolute;inset:0;opacity:0}
+.brand{position:absolute;top:44px;left:0;right:0;text-align:center;font-weight:700;font-size:17px;letter-spacing:.3px;color:#fff;opacity:.9}
+.brand span{color:#60A5FA}
+.num{position:absolute;left:0;right:0;top:150px;text-align:center;font-family:'Bitstream Charter',serif;font-style:italic;font-size:64px;color:#FACC15}
+.card{position:absolute;left:50px;width:440px;top:250px;background:#fff;color:#0F172A;border-radius:22px;padding:22px 24px;box-shadow:0 30px 70px rgba(0,0,0,.55),0 0 0 3px rgba(96,165,250,.55)}
+.ctitle{display:flex;align-items:center;gap:10px;font-weight:700;font-size:19px}
+.dot{width:26px;height:26px;border-radius:8px}
+.sub{font-size:13px;color:#64748B;font-weight:500;margin-top:4px}
+.cap{position:absolute;left:30px;right:30px;top:640px;text-align:center;font-weight:800;font-size:40px;line-height:1.15;text-shadow:0 4px 20px rgba(0,0,0,.6)}
+.cap em{font-family:'Bitstream Charter',serif;font-style:italic;font-weight:700;color:#FACC15}
+.w{display:inline-block;opacity:0;transform:translateY(14px)}
+.foot{position:absolute;bottom:58px;left:0;right:0;text-align:center;font-size:15px;color:#93C5FD;font-weight:600;opacity:.85}
+.row{display:flex;align-items:center;justify-content:space-between;border:2px solid #E2E8F0;border-radius:12px;padding:12px 14px;margin-top:10px;font-weight:700;font-size:17px}
+.badge{font-size:14px;padding:5px 10px;border-radius:99px}
+.hook1{position:absolute;left:0;right:0;top:300px;text-align:center;font-weight:800;font-size:76px;line-height:1}
+.hook1 em{font-family:'Bitstream Charter',serif;font-style:italic;color:#FACC15}
+.hook2{position:absolute;left:40px;right:40px;top:420px;text-align:center;font-weight:800;font-size:38px;line-height:1.18}
+.icons{position:absolute;top:610px;left:0;right:0;display:flex;justify-content:center;gap:18px}
+.ic{width:84px;height:84px;border-radius:22px;background:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 14px 30px rgba(0,0,0,.45)}
+</style></head><body>
+<div id="bg"></div><div id="glow"></div>
+<div class="brand" style="z-index:5">ProSite<span>Guide</span></div>
+
+<!-- S1 hook -->
+<div class="layer" id="s1">
+  <div class="hook1" id="h1"><em>3</em> FREE tools</div>
+  <div class="hook2" id="h2"></div>
+  <div class="icons" id="icons">
+    <div class="ic"><svg width="50" height="50" viewBox="0 0 50 50"><path d="M7 36a18 18 0 1 1 36 0" fill="none" stroke="#E2E8F0" stroke-width="7" stroke-linecap="round"/><path d="M7 36a18 18 0 0 1 30-13" fill="none" stroke="#16A34A" stroke-width="7" stroke-linecap="round"/><path d="M25 36 34 22" stroke="#0F172A" stroke-width="4" stroke-linecap="round"/></svg></div>
+    <div class="ic"><svg width="50" height="50" viewBox="0 0 50 50"><circle cx="21" cy="21" r="12" fill="none" stroke="#1D4ED8" stroke-width="6"/><path d="m30 30 11 11" stroke="#1D4ED8" stroke-width="7" stroke-linecap="round"/></svg></div>
+    <div class="ic"><svg width="50" height="50" viewBox="0 0 50 50"><rect x="6" y="12" width="38" height="27" rx="5" fill="#F97316"/><path d="m8 15 17 13 17-13" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"/></svg></div>
+  </div>
+  <div class="foot">no signup · no cost</div>
+</div>
+
+<!-- S2 PageSpeed -->
+<div class="layer" id="s2">
+  <div class="num">#1</div>
+  <div class="card" id="c2">
+    <div class="ctitle"><div class="dot" style="background:#16A34A"></div>PageSpeed Insights</div>
+    <div class="sub">Mobile performance · free from Google</div>
+    <div style="display:flex;justify-content:center;margin-top:18px;position:relative">
+      <svg width="220" height="220" viewBox="0 0 220 220"><circle cx="110" cy="110" r="92" fill="none" stroke="#F1F5F9" stroke-width="18"/>
+      <circle id="arc" cx="110" cy="110" r="92" fill="none" stroke="#DC2626" stroke-width="18" stroke-linecap="round" transform="rotate(-90 110 110)" stroke-dasharray="578" stroke-dashoffset="578"/></svg>
+      <div id="score" style="position:absolute;top:72px;font-size:64px;font-weight:800;color:#DC2626">0</div>
+    </div>
+    <div style="display:flex;justify-content:space-between;margin-top:14px;font-size:15px;font-weight:700">
+      <span>LCP <b id="lcp" style="color:#DC2626">6.1 s</b></span><span>INP <b style="color:#16A34A">180 ms</b></span><span>CLS <b id="cls" style="color:#DC2626">0.31</b></span>
+    </div>
+  </div>
+  <div class="cap" id="cap2"></div>
+</div>
+
+<!-- S3 Search Console -->
+<div class="layer" id="s3">
+  <div class="num">#2</div>
+  <div class="card" id="c3">
+    <div class="ctitle"><div class="dot" style="background:#1D4ED8"></div>Google Search Console</div>
+    <div class="sub">Pages indexed · free from Google</div>
+    <div style="display:flex;gap:12px;margin-top:16px">
+      <div style="flex:1;background:#EFF6FF;border-radius:12px;padding:12px"><div style="font-size:12px;color:#64748B;font-weight:700">INDEXED</div><div id="idx" style="font-size:34px;font-weight:800;color:#1D4ED8">0</div></div>
+      <div style="flex:1;background:#FEF2F2;border-radius:12px;padding:12px"><div style="font-size:12px;color:#64748B;font-weight:700">NOT INDEXED</div><div style="font-size:34px;font-weight:800;color:#DC2626">12</div></div>
+    </div>
+    <svg width="392" height="150" viewBox="0 0 392 150" style="margin-top:14px">
+      <line x1="0" y1="140" x2="392" y2="140" stroke="#E2E8F0" stroke-width="2"/>
+      <polyline id="line" points="0,132 50,128 100,120 150,110 200,92 250,80 300,56 350,40 392,22" fill="none" stroke="#1D4ED8" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="460" stroke-dashoffset="460"/>
+    </svg>
+  </div>
+  <div class="cap" id="cap3"></div>
+</div>
+
+<!-- S4 Email -->
+<div class="layer" id="s4">
+  <div class="num">#3</div>
+  <div class="card" id="c4">
+    <div class="ctitle"><div class="dot" style="background:#F97316"></div>SPF / DMARC checker</div>
+    <div class="sub">yourbusiness.com · free online check</div>
+    <div class="row" id="r1">SPF <span class="badge" style="background:#DCFCE7;color:#15803D">✓ Pass</span></div>
+    <div class="row" id="r2">DKIM <span class="badge" style="background:#DCFCE7;color:#15803D">✓ Pass</span></div>
+    <div class="row" id="r3" style="border-color:#FCA5A5;background:#FEF2F2">DMARC <span class="badge" style="background:#DC2626;color:#fff">✗ Missing</span></div>
+  </div>
+  <div class="cap" id="cap4"></div>
+</div>
+
+<!-- S5 CTA -->
+<div class="layer" id="s5">
+  <div style="position:absolute;top:250px;left:0;right:0;text-align:center;font-weight:700;font-size:34px">comment</div>
+  <div id="kw" style="position:absolute;top:300px;left:0;right:0;text-align:center;font-family:'Bitstream Charter',serif;font-style:italic;font-weight:700;font-size:110px;color:#FACC15">"CHECK"</div>
+  <div id="cta2" style="position:absolute;top:470px;left:40px;right:40px;text-align:center;font-weight:800;font-size:34px;line-height:1.2">and I'll send you my free website checklist</div>
+  <div id="cta3" style="position:absolute;top:640px;left:120px;right:120px;text-align:center;background:#1D4ED8;border-radius:99px;padding:16px;font-weight:700;font-size:22px">Follow for more ➜</div>
+  <div class="foot">prositeguide.com</div>
+</div>
+
+<script>
+const clamp=(x)=>Math.max(0,Math.min(1,x));
+const ease=(x)=>1-Math.pow(1-clamp(x),3);
+function words(el,html){el.innerHTML=html.split(' ').map(w=>`<span class="w">${w}</span>`).join(' ');}
+words(document.getElementById('h2'),"that show what's <em>wrong</em> with your website");
+words(document.getElementById('cap2'),"Is your site too <em>slow?</em>");
+words(document.getElementById('cap3'),"Can Google even <em>find</em> you?");
+words(document.getElementById('cap4'),"Are your emails going to <em>spam?</em>");
+// fix em spans broken by split
+document.querySelectorAll('.w').forEach(s=>{s.innerHTML=s.innerHTML.replace('<em>','').replace('</em>','');if(/wrong|slow\?|find|spam\?/.test(s.textContent))s.innerHTML='<em>'+s.textContent+'</em>';});
+document.getElementById('h2').innerHTML=document.getElementById('h2').innerHTML.replace("what's","what's");
+const S=[['s1',0,2.4],['s2',2.4,5.4],['s3',5.4,8.4],['s4',8.4,11.4],['s5',11.4,13.6]];
+function revealWords(el,t0,t,step){el.querySelectorAll('.w').forEach((w,i)=>{const p=ease((t-t0-i*step)/0.18);w.style.opacity=p;w.style.transform=`translateY(${(1-p)*14}px)`;});}
+function card(el,t0,t){const p=ease((t-t0)/0.35);el.style.opacity=p;el.style.transform=`translateY(${(1-p)*60}px) scale(${0.92+0.08*p})`;}
+window.render=function(t){
+  for(const [id,a,b] of S){const L=document.getElementById(id);let o=clamp((t-a+0.12)/0.12)*clamp((b+0.12-t)/0.12);if(id==='s1')o=clamp((b+0.12-t)/0.12);if(id==='s5')o=clamp((t-a+0.12)/0.12);L.style.opacity=o;}
+  document.getElementById('glow').style.transform=`translate(${Math.sin(t*1.3)*20}px,${Math.cos(t)*30}px)`;
+  // S1
+  const h1=document.getElementById('h1');const p1=0.55+0.45*ease(t/0.3);h1.style.opacity=1;h1.style.transform=`scale(${1.4-0.4*p1})`;
+  revealWords(document.getElementById('h2'),0.35,t,0.09);
+  document.querySelectorAll('#icons .ic').forEach((c,i)=>{const p=ease((t-0.5-i*0.12)/0.3);c.style.opacity=p;c.style.transform=`translateY(${(1-p)*40}px) rotate(${(1-p)*(i-1)*15}deg)`;});
+  // S2
+  card(document.getElementById('c2'),2.45,t);
+  const sp=ease((t-2.9)/1.6);const sc=Math.round(38+56*sp);const col=sc<50?'#DC2626':sc<90?'#F59E0B':'#16A34A';
+  document.getElementById('score').textContent=t<2.9?38:sc;document.getElementById('score').style.color=col;
+  const arc=document.getElementById('arc');arc.style.stroke=col;arc.setAttribute('stroke-dashoffset',578*(1-(t<2.9?38:sc)/100));
+  const good=sp>0.8;document.getElementById('lcp').textContent=good?'1.9 s':'6.1 s';document.getElementById('lcp').style.color=good?'#16A34A':'#DC2626';
+  document.getElementById('cls').textContent=good?'0.02':'0.31';document.getElementById('cls').style.color=good?'#16A34A':'#DC2626';
+  revealWords(document.getElementById('cap2'),2.7,t,0.1);
+  // S3
+  card(document.getElementById('c3'),5.45,t);
+  const lp=ease((t-5.8)/1.6);document.getElementById('line').setAttribute('stroke-dashoffset',460*(1-lp));
+  document.getElementById('idx').textContent=Math.round(48*lp);
+  revealWords(document.getElementById('cap3'),5.7,t,0.1);
+  // S4
+  card(document.getElementById('c4'),8.45,t);
+  ['r1','r2','r3'].forEach((r,i)=>{const p=ease((t-8.9-i*0.35)/0.25);const e=document.getElementById(r);e.style.opacity=p;e.style.transform=`translateX(${(1-p)*-30}px)`+(r==='r3'&&t>10.1?` translateX(${Math.sin((t-10.1)*40)*4*clamp(1-(t-10.1)/0.4)}px)`:'');});
+  revealWords(document.getElementById('cap4'),8.7,t,0.09);
+  // S5
+  const k=ease((t-11.5)/0.3);const kw=document.getElementById('kw');kw.style.opacity=k;kw.style.transform=`scale(${1.5-0.5*k}) rotate(${(1-k)*-6}deg)`;
+  const c2=ease((t-11.9)/0.3);document.getElementById('cta2').style.opacity=c2;document.getElementById('cta2').style.transform=`translateY(${(1-c2)*20}px)`;
+  const c3=ease((t-12.3)/0.3);const b=document.getElementById('cta3');b.style.opacity=c3;b.style.transform=`scale(${0.8+0.2*c3+0.03*Math.sin(t*8)*c3})`;
+};
+render(0);
+</script></body></html>
