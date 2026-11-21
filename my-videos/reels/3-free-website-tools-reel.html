@@ -79,7 +79,7 @@ html,body{width:540px;height:960px;overflow:hidden;background:#0B1120;font-famil
 <div class="layer" id="s4">
   <div class="num">#3</div>
   <div class="card" id="c4">
-    <div class="ctitle"><div class="dot" style="background:#F97316"></div>SPF / DMARC checker</div>
+    <div class="ctitle"><div class="dot" style="background:#F97316"></div>DMARC checker</div>
     <div class="sub">yourbusiness.com · free online check</div>
     <div class="row" id="r1">SPF <span class="badge" style="background:#DCFCE7;color:#15803D">✓ Pass</span></div>
     <div class="row" id="r2">DKIM <span class="badge" style="background:#DCFCE7;color:#15803D">✓ Pass</span></div>
@@ -92,7 +92,7 @@ html,body{width:540px;height:960px;overflow:hidden;background:#0B1120;font-famil
 <div class="layer" id="s5">
   <div style="position:absolute;top:250px;left:0;right:0;text-align:center;font-weight:700;font-size:34px">comment</div>
   <div id="kw" style="position:absolute;top:300px;left:0;right:0;text-align:center;font-family:'Bitstream Charter',serif;font-style:italic;font-weight:700;font-size:110px;color:#FACC15">"CHECK"</div>
-  <div id="cta2" style="position:absolute;top:470px;left:40px;right:40px;text-align:center;font-weight:800;font-size:34px;line-height:1.2">and I'll send you my free website checklist</div>
+  <div id="cta2" style="position:absolute;top:470px;left:40px;right:40px;text-align:center;font-weight:800;font-size:34px;line-height:1.2">and I'll send you my free checklist</div>
   <div id="cta3" style="position:absolute;top:640px;left:120px;right:120px;text-align:center;background:#1D4ED8;border-radius:99px;padding:16px;font-weight:700;font-size:22px">Follow for more ➜</div>
   <div class="foot">prositeguide.com</div>
 </div>
@@ -104,11 +104,11 @@ function words(el,html){el.innerHTML=html.split(' ').map(w=>`<span class="w">${w
 words(document.getElementById('h2'),"that show what's <em>wrong</em> with your website");
 words(document.getElementById('cap2'),"Is your site too <em>slow?</em>");
 words(document.getElementById('cap3'),"Can Google even <em>find</em> you?");
-words(document.getElementById('cap4'),"Are your emails going to <em>spam?</em>");
+words(document.getElementById('cap4'),"Are your emails landing in <em>spam?</em>");
 // fix em spans broken by split
 document.querySelectorAll('.w').forEach(s=>{s.innerHTML=s.innerHTML.replace('<em>','').replace('</em>','');if(/wrong|slow\?|find|spam\?/.test(s.textContent))s.innerHTML='<em>'+s.textContent+'</em>';});
 document.getElementById('h2').innerHTML=document.getElementById('h2').innerHTML.replace("what's","what's");
-const S=[['s1',0,2.4],['s2',2.4,5.4],['s3',5.4,8.4],['s4',8.4,11.4],['s5',11.4,13.6]];
+const T=[0.0, 2.289, 5.614, 8.706, 12.405];const END=14.95;const S=[['s1',T[0],T[1]],['s2',T[1],T[2]],['s3',T[2],T[3]],['s4',T[3],T[4]],['s5',T[4],END]];
 function revealWords(el,t0,t,step){el.querySelectorAll('.w').forEach((w,i)=>{const p=ease((t-t0-i*step)/0.18);w.style.opacity=p;w.style.transform=`translateY(${(1-p)*14}px)`;});}
 function card(el,t0,t){const p=ease((t-t0)/0.35);el.style.opacity=p;el.style.transform=`translateY(${(1-p)*60}px) scale(${0.92+0.08*p})`;}
 window.render=function(t){
@@ -119,26 +119,26 @@ window.render=function(t){
   revealWords(document.getElementById('h2'),0.35,t,0.09);
   document.querySelectorAll('#icons .ic').forEach((c,i)=>{const p=ease((t-0.5-i*0.12)/0.3);c.style.opacity=p;c.style.transform=`translateY(${(1-p)*40}px) rotate(${(1-p)*(i-1)*15}deg)`;});
   // S2
-  card(document.getElementById('c2'),2.45,t);
-  const sp=ease((t-2.9)/1.6);const sc=Math.round(38+56*sp);const col=sc<50?'#DC2626':sc<90?'#F59E0B':'#16A34A';
-  document.getElementById('score').textContent=t<2.9?38:sc;document.getElementById('score').style.color=col;
-  const arc=document.getElementById('arc');arc.style.stroke=col;arc.setAttribute('stroke-dashoffset',578*(1-(t<2.9?38:sc)/100));
+  card(document.getElementById('c2'),T[1]+0.05,t);
+  const sp=ease((t-T[1]-0.5)/1.6);const sc=Math.round(38+56*sp);const col=sc<50?'#DC2626':sc<90?'#F59E0B':'#16A34A';
+  document.getElementById('score').textContent=t<T[1]+0.5?38:sc;document.getElementById('score').style.color=col;
+  const arc=document.getElementById('arc');arc.style.stroke=col;arc.setAttribute('stroke-dashoffset',578*(1-(t<T[1]+0.5?38:sc)/100));
   const good=sp>0.8;document.getElementById('lcp').textContent=good?'1.9 s':'6.1 s';document.getElementById('lcp').style.color=good?'#16A34A':'#DC2626';
   document.getElementById('cls').textContent=good?'0.02':'0.31';document.getElementById('cls').style.color=good?'#16A34A':'#DC2626';
-  revealWords(document.getElementById('cap2'),2.7,t,0.1);
+  revealWords(document.getElementById('cap2'),T[1]+1.4,t,0.1);
   // S3
-  card(document.getElementById('c3'),5.45,t);
-  const lp=ease((t-5.8)/1.6);document.getElementById('line').setAttribute('stroke-dashoffset',460*(1-lp));
+  card(document.getElementById('c3'),T[2]+0.05,t);
+  const lp=ease((t-T[2]-0.4)/1.6);document.getElementById('line').setAttribute('stroke-dashoffset',460*(1-lp));
   document.getElementById('idx').textContent=Math.round(48*lp);
-  revealWords(document.getElementById('cap3'),5.7,t,0.1);
+  revealWords(document.getElementById('cap3'),T[2]+1.2,t,0.1);
   // S4
-  card(document.getElementById('c4'),8.45,t);
-  ['r1','r2','r3'].forEach((r,i)=>{const p=ease((t-8.9-i*0.35)/0.25);const e=document.getElementById(r);e.style.opacity=p;e.style.transform=`translateX(${(1-p)*-30}px)`+(r==='r3'&&t>10.1?` translateX(${Math.sin((t-10.1)*40)*4*clamp(1-(t-10.1)/0.4)}px)`:'');});
-  revealWords(document.getElementById('cap4'),8.7,t,0.09);
+  card(document.getElementById('c4'),T[3]+0.05,t);
+  ['r1','r2','r3'].forEach((r,i)=>{const p=ease((t-T[3]-0.4-i*0.35)/0.25);const e=document.getElementById(r);e.style.opacity=p;e.style.transform=`translateX(${(1-p)*-30}px)`+(r==='r3'&&t>(T[3]+1.6)?` translateX(${Math.sin((t-(T[3]+1.6))*40)*4*clamp(1-(t-(T[3]+1.6))/0.4)}px)`:'');});
+  revealWords(document.getElementById('cap4'),T[3]+1.5,t,0.09);
   // S5
-  const k=ease((t-11.5)/0.3);const kw=document.getElementById('kw');kw.style.opacity=k;kw.style.transform=`scale(${1.5-0.5*k}) rotate(${(1-k)*-6}deg)`;
-  const c2=ease((t-11.9)/0.3);document.getElementById('cta2').style.opacity=c2;document.getElementById('cta2').style.transform=`translateY(${(1-c2)*20}px)`;
-  const c3=ease((t-12.3)/0.3);const b=document.getElementById('cta3');b.style.opacity=c3;b.style.transform=`scale(${0.8+0.2*c3+0.03*Math.sin(t*8)*c3})`;
+  const k=ease((t-T[4]-0.05)/0.3);const kw=document.getElementById('kw');kw.style.opacity=k;kw.style.transform=`scale(${1.5-0.5*k}) rotate(${(1-k)*-6}deg)`;
+  const c2=ease((t-T[4]-0.6)/0.3);document.getElementById('cta2').style.opacity=c2;document.getElementById('cta2').style.transform=`translateY(${(1-c2)*20}px)`;
+  const c3=ease((t-T[4]-1.2)/0.3);const b=document.getElementById('cta3');b.style.opacity=c3;b.style.transform=`scale(${0.8+0.2*c3+0.03*Math.sin(t*8)*c3})`;
 };
 render(0);
 </script></body></html>
