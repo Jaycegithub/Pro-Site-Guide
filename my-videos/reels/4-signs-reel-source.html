@@ -8,7 +8,7 @@ html,body{width:540px;height:960px;overflow:hidden;font-family:Inter,sans-serif;
 #wash{position:absolute;inset:0;background:radial-gradient(circle at 50% 30%,rgba(59,130,246,.16),rgba(59,130,246,0) 55%)}
 #logo{position:absolute;top:30px;left:24px;height:34px;z-index:9}
 #url{position:absolute;top:38px;right:24px;font-family:SG;font-weight:600;font-size:15px;color:#1D4ED8;background:#EFF6FF;border:1.5px solid #BFDBFE;border-radius:99px;padding:5px 12px;z-index:9}
-.layer{position:absolute;left:0;right:0;top:92px;height:420px;opacity:0;transform:scale(1.2);transform-origin:50% 0}
+.layer{position:absolute;left:0;right:0;top:104px;height:420px;opacity:0;transform:scale(1.2);transform-origin:50% 0}
 .card{position:absolute;background:#fff;border-radius:22px;box-shadow:0 22px 50px rgba(15,23,42,.16),0 0 0 1.5px #E2E8F0}
 .badge{position:absolute;top:-18px;left:-14px;width:48px;height:48px;border-radius:50%;background:#1D4ED8;color:#fff;font-family:SG;font-weight:700;font-size:24px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 18px rgba(29,78,216,.45);border:3px solid #fff}
 .h{font-family:SG;font-weight:700;letter-spacing:-.5px}
@@ -19,21 +19,24 @@ html,body{width:540px;height:960px;overflow:hidden;font-family:Inter,sans-serif;
 #bubble:before{content:'';position:absolute;left:-14px;top:24px;border:12px solid transparent;border-right:16px solid #0F172A;border-left:0}
 #cap{font-family:SG;font-weight:700;font-size:26px;line-height:1.12;letter-spacing:-.3px}
 #cap b{color:#60A5FA;font-weight:700}
+i.seg{display:block;width:34px;height:6px;border-radius:3px;background:#CBD5E1}
 #waves{position:absolute;left:108px;top:676px;z-index:7}
 </style></head><body>
 <div id="bg"></div><div id="wash"></div>
 <img id="logo" src="logo.svg"><div id="url">prositeguide.com</div>
+<div id="trk" style="position:absolute;top:72px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:6px;z-index:9;opacity:0"><span class="mono" id="trkt" style="font-size:13px;font-weight:800;color:#1D4ED8;margin-right:6px">SIGN 1 OF 4</span><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i></div>
 
 <!-- S0 HOOK -->
 <div class="layer" id="s0">
-  <div class="h" id="hk" style="position:absolute;left:48px;right:48px;top:6px;text-align:center;font-size:42px;line-height:1.05">Is your website <span style="color:#DC2626;font-family:'Bitstream Charter',serif;font-style:italic">losing</span> you customers?</div>
-  <div class="card" id="hc" style="left:95px;width:350px;top:195px;height:205px;padding:18px 20px">
+  <div class="h" id="hk" style="position:absolute;left:48px;right:48px;top:6px;text-align:center;font-size:39px;line-height:1.05">Your website is <span style="color:#DC2626;font-family:'Bitstream Charter',serif;font-style:italic">losing</span> you customers</div>
+  <div class="card" id="hc" style="left:95px;width:350px;top:170px;height:205px;padding:18px 20px">
     <div style="display:flex;justify-content:space-between;align-items:center"><div class="h" style="font-size:18px">Website enquiries</div><div class="mono" style="font-size:12px;color:#DC2626;background:#FEF2F2;padding:4px 8px;border-radius:6px;font-weight:700" id="pct">▼ 0%</div></div>
     <svg width="310" height="130" viewBox="0 0 310 130" style="margin-top:10px">
       <line x1="0" y1="125" x2="310" y2="125" stroke="#E2E8F0" stroke-width="2"/>
       <polyline id="down" points="0,20 45,28 90,24 135,48 180,60 225,88 270,96 310,118" fill="none" stroke="#DC2626" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="420" stroke-dashoffset="420"/>
     </svg>
   </div>
+  <div id="signs" class="h" style="position:absolute;left:170px;width:200px;top:385px;text-align:center;background:#DC2626;color:#fff;border-radius:99px;padding:8px 0;font-size:22px;box-shadow:0 10px 24px rgba(220,38,38,.4)">⚠ 4 SIGNS ↓</div>
 </div>
 
 <!-- S1 SLOW -->
@@ -103,7 +106,8 @@ html,body{width:540px;height:960px;overflow:hidden;font-family:Inter,sans-serif;
 <div class="layer" id="s5">
   <div class="h" id="cm" style="position:absolute;left:0;right:0;top:10px;text-align:center;font-size:40px">Comment</div>
   <div class="h" id="kw" style="position:absolute;left:0;right:0;top:58px;text-align:center;font-size:92px;color:#1D4ED8;letter-spacing:-2px">"GUIDE"</div>
-  <div id="bar" style="position:absolute;left:58px;right:58px;top:200px;background:#fff;border:2px solid #E2E8F0;border-radius:99px;padding:10px 10px 10px 14px;display:flex;align-items:center;gap:12px;box-shadow:0 18px 40px rgba(15,23,42,.14)">
+  <div class="h" style="position:absolute;left:0;right:0;top:158px;text-align:center;font-size:24px;color:#0F172A">below 👇</div>
+  <div id="bar" style="position:absolute;left:58px;right:58px;top:205px;background:#fff;border:2px solid #E2E8F0;border-radius:99px;padding:10px 10px 10px 14px;display:flex;align-items:center;gap:12px;box-shadow:0 18px 40px rgba(15,23,42,.14)">
     <div style="width:42px;height:42px;border-radius:50%;background:#CBD5E1"></div>
     <div class="mono" id="typed" style="flex:1;font-size:24px;font-weight:700"></div>
     <div id="sendbtn" style="width:48px;height:48px;border-radius:50%;background:#CBD5E1;display:flex;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M3 11 21 3l-8 18-2-8z" fill="#fff"/></svg></div>
@@ -126,6 +130,7 @@ html,body{width:540px;height:960px;overflow:hidden;font-family:Inter,sans-serif;
   <div id="follow" style="position:absolute;left:150px;right:150px;top:-2px;text-align:center"></div>
 </div>
 
+<div id="arrow" style="position:absolute;left:400px;top:560px;z-index:8;opacity:0;text-align:center"><div class="h" style="background:#1D4ED8;color:#fff;border-radius:12px;padding:6px 10px;font-size:17px;margin-bottom:4px">Comment here</div><svg width="90" height="90" viewBox="0 0 90 90"><path d="M20 10 C 30 50, 50 60, 74 70" fill="none" stroke="#1D4ED8" stroke-width="8" stroke-linecap="round"/><path d="M56 56 L78 72 L52 80" fill="none" stroke="#1D4ED8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
 <div id="shadow"></div>
 <img id="me" src="me-cut.png">
 <svg id="waves" width="30" height="60" viewBox="0 0 30 60"><path id="w1" d="M6 18q8 12 0 24" fill="none" stroke="#1D4ED8" stroke-width="4" stroke-linecap="round"/><path id="w2" d="M16 10q14 20 0 40" fill="none" stroke="#1D4ED8" stroke-width="4" stroke-linecap="round"/></svg>
@@ -137,12 +142,12 @@ const clamp=x=>Math.max(0,Math.min(1,x));const ease=x=>1-Math.pow(1-clamp(x),3);
 const back=x=>{x=clamp(x);const c=1.6;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
 // captions: [lineIndex, [chunks]]
 const CH=[
- ["Is your website","<b>losing</b> you customers?","Here are <b>4 signs</b> 👇"],
+ ["Your website is","<b>losing</b> you customers","Here are <b>4 signs</b> 👇"],
  ["Number one:","It's <b>slow</b> on phones"],
  ["Number two:","No <b>padlock</b> in the browser"],
  ["Number three:","Your contact form","doesn't actually <b>send</b>"],
  ["Number four:","You're not on","<b>Google Maps</b>"],
- ["Comment <b>GUIDE</b>","for my <b>free</b> checklist"],
+ ["Comment <b>GUIDE</b> below 👇","for my <b>free</b> checklist"],
  ["More free guides at","<b>prositeguide.com</b><br><span style='font-size:17px;color:#CBD5E1;font-weight:600'>Follow for more tips ➜</span>"]];
 const caps=[];CH.forEach((ch,li)=>{const tot=ch.reduce((s,c)=>s+c.replace(/<[^>]+>/g,'').length+6,0);let t0=T[li];ch.forEach(c=>{caps.push([t0,c]);t0+=D[li]*(c.replace(/<[^>]+>/g,'').length+6)/tot;});});
 const SC=[['s0',0,T[1]],['s1',T[1],T[2]],['s2',T[2],T[3]],['s3',T[3],T[4]],['s4',T[4],T[5]],['s5',T[5],T[6]],['s6',T[6],END+1]];
@@ -159,9 +164,9 @@ window.render=function(t){
   document.getElementById('w1').style.opacity=clamp(e*1.6);document.getElementById('w2').style.opacity=clamp(e*1.6-0.35);
   document.getElementById('waves').style.transform=`translateX(${e*3}px)`;
   // S0
-  const hk=document.getElementById('hk');const hp=ease(t/0.35);hk.style.opacity=1;hk.style.transform=`scale(${1.12-0.12*hp})`;
-  pop(document.getElementById('hc'),0.45,t);document.getElementById('down').setAttribute('stroke-dashoffset',420*(1-ease((t-0.8)/1.8)));
-  document.getElementById('pct').textContent='▼ '+Math.round(62*ease((t-0.8)/1.8))+'%';
+  const hk=document.getElementById('hk');const hp=ease(t/0.3);hk.style.opacity=1;hk.style.transform=`scale(${1.04-0.04*hp}) translateX(${t<0.3?Math.sin(t*90)*3*(1-t/0.3):0}px)`;
+  const hc=document.getElementById('hc');hc.style.opacity=1;hc.style.transform=`scale(${1.06-0.06*ease(t/0.4)})`;const dp=0.35+0.65*ease(t/1.3);document.getElementById('down').setAttribute('stroke-dashoffset',420*(1-dp));const sg=document.getElementById('signs');sg.style.transform=`scale(${1+0.07*Math.max(0,Math.sin(t*9))})`;
+  document.getElementById('pct').textContent='▼ '+Math.round(62*dp)+'%';
   // S1
   pop(document.getElementById('c1'),T[1]+0.02,t);document.getElementById('spin').style.transform=`rotate(${t*400}deg)`;
   const tm=Math.max(0,t-T[1]-0.2)*3.4;const tmr=document.getElementById('timer');tmr.textContent=tm.toFixed(1)+'s';tmr.style.color=tm>3?'#DC2626':'#0F172A';
@@ -183,7 +188,7 @@ window.render=function(t){
   pop(document.getElementById('ck'),T[5]+1.5,t,30);
   // S6
   pop(document.getElementById('c6'),T[6]+0.02,t,60);document.getElementById('shot').style.transform=`translateY(${-ease((t-T[6]-0.6)/2.2)*70}px)`;
-  const fl=document.getElementById('follow');
+  const si=t>=T[4]?4:t>=T[3]?3:t>=T[2]?2:t>=T[1]?1:0;const tr=document.getElementById('trk');tr.style.opacity=(t>T[1]-0.1&&t<T[5]-0.05)?1:0;document.getElementById('trkt').textContent='SIGN '+Math.max(1,si)+' OF 4';document.querySelectorAll('i.seg').forEach((s,i)=>s.style.background=i<si?'#1D4ED8':'#CBD5E1');const ar=document.getElementById('arrow');const ao=t>T[5]+0.2&&t<T[6]+0.05?1:0;ar.style.opacity=ao;const bo=Math.abs(Math.sin(t*6))*14;ar.style.transform=`translate(${bo}px,${bo}px)`;
 };
 render(0);
 </script></body></html>
