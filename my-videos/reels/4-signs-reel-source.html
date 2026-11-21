@@ -8,25 +8,25 @@ html,body{width:540px;height:960px;overflow:hidden;font-family:Inter,sans-serif;
 #wash{position:absolute;inset:0;background:radial-gradient(circle at 50% 30%,rgba(59,130,246,.16),rgba(59,130,246,0) 55%)}
 #logo{position:absolute;top:30px;left:24px;height:34px;z-index:9}
 #url{position:absolute;top:38px;right:24px;font-family:SG;font-weight:600;font-size:15px;color:#1D4ED8;background:#EFF6FF;border:1.5px solid #BFDBFE;border-radius:99px;padding:5px 12px;z-index:9}
-.layer{position:absolute;left:0;right:0;top:90px;height:420px;opacity:0}
+.layer{position:absolute;left:0;right:0;top:92px;height:420px;opacity:0;transform:scale(1.2);transform-origin:50% 0}
 .card{position:absolute;background:#fff;border-radius:22px;box-shadow:0 22px 50px rgba(15,23,42,.16),0 0 0 1.5px #E2E8F0}
 .badge{position:absolute;top:-18px;left:-14px;width:48px;height:48px;border-radius:50%;background:#1D4ED8;color:#fff;font-family:SG;font-weight:700;font-size:24px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 18px rgba(29,78,216,.45);border:3px solid #fff}
 .h{font-family:SG;font-weight:700;letter-spacing:-.5px}
 .mono{font-family:'JetBrains Mono',monospace}
-#me{position:absolute;left:16px;top:478px;height:330px;transform-origin:50% 100%;z-index:6;filter:drop-shadow(0 14px 18px rgba(15,23,42,.25))}
-#shadow{position:absolute;left:22px;top:798px;width:120px;height:16px;border-radius:50%;background:rgba(15,23,42,.18);filter:blur(4px);z-index:5}
-#bubble{position:absolute;left:160px;top:515px;width:360px;min-height:92px;background:#0F172A;color:#fff;border-radius:22px;padding:18px 22px;z-index:7;display:flex;align-items:center;box-shadow:0 18px 40px rgba(15,23,42,.3)}
-#bubble:before{content:'';position:absolute;left:-14px;top:30px;border:12px solid transparent;border-right:16px solid #0F172A;border-left:0}
-#cap{font-family:SG;font-weight:700;font-size:31px;line-height:1.12;letter-spacing:-.3px}
+#me{position:absolute;left:14px;top:662px;height:268px;transform-origin:50% 100%;z-index:6;filter:drop-shadow(0 14px 18px rgba(15,23,42,.25))}
+#shadow{position:absolute;left:18px;top:920px;width:100px;height:16px;border-radius:50%;background:rgba(15,23,42,.18);filter:blur(4px);z-index:5}
+#bubble{position:absolute;left:132px;top:690px;width:390px;min-height:78px;background:#0F172A;color:#fff;border-radius:20px;padding:14px 20px;z-index:7;display:flex;align-items:center;box-shadow:0 18px 40px rgba(15,23,42,.3)}
+#bubble:before{content:'';position:absolute;left:-14px;top:24px;border:12px solid transparent;border-right:16px solid #0F172A;border-left:0}
+#cap{font-family:SG;font-weight:700;font-size:26px;line-height:1.12;letter-spacing:-.3px}
 #cap b{color:#60A5FA;font-weight:700}
-#waves{position:absolute;left:136px;top:500px;z-index:7}
+#waves{position:absolute;left:108px;top:676px;z-index:7}
 </style></head><body>
 <div id="bg"></div><div id="wash"></div>
 <img id="logo" src="logo.svg"><div id="url">prositeguide.com</div>
 
 <!-- S0 HOOK -->
 <div class="layer" id="s0">
-  <div class="h" id="hk" style="position:absolute;left:30px;right:30px;top:6px;text-align:center;font-size:47px;line-height:1.05">Is your website <span style="color:#DC2626;font-family:'Bitstream Charter',serif;font-style:italic">losing</span> you customers?</div>
+  <div class="h" id="hk" style="position:absolute;left:48px;right:48px;top:6px;text-align:center;font-size:42px;line-height:1.05">Is your website <span style="color:#DC2626;font-family:'Bitstream Charter',serif;font-style:italic">losing</span> you customers?</div>
   <div class="card" id="hc" style="left:95px;width:350px;top:195px;height:205px;padding:18px 20px">
     <div style="display:flex;justify-content:space-between;align-items:center"><div class="h" style="font-size:18px">Website enquiries</div><div class="mono" style="font-size:12px;color:#DC2626;background:#FEF2F2;padding:4px 8px;border-radius:6px;font-weight:700" id="pct">▼ 0%</div></div>
     <svg width="310" height="130" viewBox="0 0 310 130" style="margin-top:10px">
@@ -56,7 +56,7 @@ html,body{width:540px;height:960px;overflow:hidden;font-family:Inter,sans-serif;
 
 <!-- S2 PADLOCK -->
 <div class="layer" id="s2">
-  <div class="card" id="c2" style="left:40px;width:460px;top:60px;height:300px;overflow:hidden">
+  <div class="card" id="c2" style="left:60px;width:420px;top:60px;height:300px;overflow:hidden">
     <div style="background:#F1F5F9;padding:14px 16px;display:flex;gap:7px;align-items:center"><span style="width:12px;height:12px;border-radius:50%;background:#F87171"></span><span style="width:12px;height:12px;border-radius:50%;background:#FBBF24"></span><span style="width:12px;height:12px;border-radius:50%;background:#34D399"></span></div>
     <div id="addr" style="margin:18px 18px 0;border:2px solid #FCA5A5;background:#FEF2F2;border-radius:14px;padding:13px 16px;display:flex;align-items:center;gap:10px;font-size:20px;font-weight:600">
       <span style="color:#DC2626;font-weight:800">⚠ Not secure</span><span style="color:#94A3B8">|</span><span class="mono" style="font-size:17px;color:#475569">yourbusiness.com</span>
@@ -84,7 +84,7 @@ html,body{width:540px;height:960px;overflow:hidden;font-family:Inter,sans-serif;
 
 <!-- S4 MAPS -->
 <div class="layer" id="s4">
-  <div class="card" id="c4" style="left:50px;width:440px;top:10px;height:400px;overflow:hidden">
+  <div class="card" id="c4" style="left:60px;width:420px;top:10px;height:400px;overflow:hidden">
     <div style="height:150px;position:relative;background:#E0F2FE;background-image:linear-gradient(90deg,rgba(255,255,255,.9) 6px,transparent 6px),linear-gradient(rgba(255,255,255,.9) 6px,transparent 6px);background-size:90px 70px">
       <div style="position:absolute;left:14px;right:14px;top:12px;background:#fff;border-radius:99px;padding:9px 16px;font-size:15px;font-weight:600;color:#334155;box-shadow:0 4px 12px rgba(0,0,0,.12)">🔍 web designer near me</div>
       <svg id="p1" style="position:absolute;left:110px;top:70px" width="34" height="44" viewBox="0 0 34 44"><path d="M17 43S2 26 2 16a15 15 0 0 1 30 0c0 10-15 27-15 27z" fill="#DC2626"/><circle cx="17" cy="16" r="6" fill="#fff"/></svg>
@@ -103,7 +103,7 @@ html,body{width:540px;height:960px;overflow:hidden;font-family:Inter,sans-serif;
 <div class="layer" id="s5">
   <div class="h" id="cm" style="position:absolute;left:0;right:0;top:10px;text-align:center;font-size:40px">Comment</div>
   <div class="h" id="kw" style="position:absolute;left:0;right:0;top:58px;text-align:center;font-size:92px;color:#1D4ED8;letter-spacing:-2px">"GUIDE"</div>
-  <div id="bar" style="position:absolute;left:50px;right:50px;top:200px;background:#fff;border:2px solid #E2E8F0;border-radius:99px;padding:10px 10px 10px 14px;display:flex;align-items:center;gap:12px;box-shadow:0 18px 40px rgba(15,23,42,.14)">
+  <div id="bar" style="position:absolute;left:58px;right:58px;top:200px;background:#fff;border:2px solid #E2E8F0;border-radius:99px;padding:10px 10px 10px 14px;display:flex;align-items:center;gap:12px;box-shadow:0 18px 40px rgba(15,23,42,.14)">
     <div style="width:42px;height:42px;border-radius:50%;background:#CBD5E1"></div>
     <div class="mono" id="typed" style="flex:1;font-size:24px;font-weight:700"></div>
     <div id="sendbtn" style="width:48px;height:48px;border-radius:50%;background:#CBD5E1;display:flex;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M3 11 21 3l-8 18-2-8z" fill="#fff"/></svg></div>
@@ -143,7 +143,7 @@ const CH=[
  ["Number three:","Your contact form","doesn't actually <b>send</b>"],
  ["Number four:","You're not on","<b>Google Maps</b>"],
  ["Comment <b>GUIDE</b>","for my <b>free</b> checklist"],
- ["More free guides at","<b>prositeguide.com</b><br><span style='font-size:19px;color:#CBD5E1;font-weight:600'>Follow for more tips ➜</span>"]];
+ ["More free guides at","<b>prositeguide.com</b><br><span style='font-size:17px;color:#CBD5E1;font-weight:600'>Follow for more tips ➜</span>"]];
 const caps=[];CH.forEach((ch,li)=>{const tot=ch.reduce((s,c)=>s+c.replace(/<[^>]+>/g,'').length+6,0);let t0=T[li];ch.forEach(c=>{caps.push([t0,c]);t0+=D[li]*(c.replace(/<[^>]+>/g,'').length+6)/tot;});});
 const SC=[['s0',0,T[1]],['s1',T[1],T[2]],['s2',T[2],T[3]],['s3',T[3],T[4]],['s4',T[4],T[5]],['s5',T[5],T[6]],['s6',T[6],END+1]];
 function pop(el,t0,t,dy=50){const p=clamp((t-t0)/0.4);const s=back(p);el.style.opacity=clamp(p*3);el.style.transform=`translateY(${(1-ease(p))*dy}px) scale(${0.85+0.15*s})`;}
