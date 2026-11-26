@@ -22,8 +22,8 @@ html,body{width:540px;height:960px;overflow:hidden;font-family:Inter,sans-serif;
 .page{position:absolute;top:68px;left:0;right:0;bottom:0}
 .st{position:absolute;inset:0;opacity:0}
 .sk{background:#E2E8F0;border-radius:6px}
-#me{position:absolute;left:-6px;top:448px;width:236px;height:450px;z-index:7;transform-origin:50% 100%}
-#me img{position:absolute;left:0;bottom:0;width:100%;height:100%;object-fit:contain;object-position:50% 100%;opacity:0;filter:drop-shadow(0 14px 18px rgba(15,23,42,.25))}
+#me{position:absolute;left:8px;top:560px;width:200px;height:232px;z-index:7;transform-origin:50% 100%}
+#me img{position:absolute;bottom:0;opacity:0;filter:drop-shadow(0 10px 14px rgba(15,23,42,.25))}
 #tap{position:absolute;width:44px;height:44px;border-radius:50%;border:4px solid #1D4ED8;opacity:0;z-index:8}
 </style></head><body>
 <div id="bg"></div><div id="wash"></div>
@@ -106,10 +106,11 @@ const TM=__TIMING__;const T=TM.starts,D=TM.durs,END=TM.end,ENV=TM.env;
 const clamp=x=>Math.max(0,Math.min(1,x));const ease=x=>1-Math.pow(1-clamp(x),3);
 const back=x=>{x=clamp(x);const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
 // pose per line (index into poses3x/pNN.png)
+const PSZ={"0": [186, 456], "1": [218, 453], "2": [188, 456], "3": [249, 456], "4": [258, 456], "5": [186, 458], "6": [206, 456], "7": [210, 458], "8": [266, 456], "9": [182, 458], "10": [190, 452], "11": [176, 452], "12": [198, 450], "13": [201, 448], "14": [188, 450], "15": [216, 458], "16": [202, 448], "17": [208, 450], "18": [204, 452], "19": [208, 452], "20": [206, 452], "21": [202, 452], "22": [201, 452], "23": [236, 452], "24": [249, 448], "25": [183, 452], "26": [172, 448], "27": [222, 450], "28": [189, 452], "29": [196, 452]};
 const POSE=[2,15,17,13,22,27,26,7,6];
 const extraPose={1:[[0,14]]}; // line1 starts bored, then yawning
 const me=document.getElementById('me');
-[...new Set([...POSE,14,3])].forEach(n=>{const i=document.createElement('img');i.src=`poses3x/p${String(n).padStart(2,'0')}.png`;i.dataset.n=n;me.appendChild(i);});
+[...new Set([...POSE,14,3])].forEach(n=>{const i=document.createElement('img');i.src=`poses15/p${String(n).padStart(2,'0')}.png`;i.dataset.n=n;const sz=PSZ[n];i.style.width=(sz[0]/2)+'px';i.style.height=(sz[1]/2)+'px';i.style.left=(100-sz[0]/4)+'px';me.appendChild(i);});
 const CAPS=[
  'you finally check your website <b>on your phone</b> 📱',
  'it loads… and loads… and <i>loads</i> 🥱',
