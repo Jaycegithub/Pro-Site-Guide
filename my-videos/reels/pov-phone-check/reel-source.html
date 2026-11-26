@@ -1,0 +1,166 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>
+@font-face{font-family:SG;src:url(SpaceGrotesk-Bold.ttf);font-weight:700}
+@font-face{font-family:SG;src:url(SpaceGrotesk-SemiBold.ttf);font-weight:600}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:540px;height:960px;overflow:hidden;font-family:Inter,sans-serif;color:#0F172A}
+#bg{position:absolute;inset:0;background:#F8FAFC;background-image:radial-gradient(#CBD5E1 1.1px,transparent 1.2px);background-size:22px 22px}
+#wash{position:absolute;inset:0;background:radial-gradient(circle at 60% 55%,rgba(59,130,246,.18),rgba(59,130,246,0) 55%)}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;z-index:20;pointer-events:none}
+#logo{position:absolute;top:26px;left:22px;height:28px;z-index:9}
+#cap{position:absolute;left:26px;right:26px;top:72px;height:150px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;z-index:9}
+#pov{font-family:SG;font-weight:700;font-size:26px;background:#FACC15;color:#0F172A;border-radius:10px;padding:2px 14px;margin-bottom:8px;transform:rotate(-3deg)}
+#capt{font-family:SG;font-weight:700;font-size:35px;line-height:1.1;letter-spacing:-.6px}
+#capt b{color:#1D4ED8}
+#capt i{font-style:normal;color:#DC2626}
+/* phone */
+#phone{position:absolute;left:212px;top:236px;width:262px;height:530px;border-radius:40px;background:#0F172A;padding:11px;box-shadow:0 30px 60px rgba(15,23,42,.35);z-index:4}
+#scr{position:relative;width:100%;height:100%;border-radius:30px;background:#fff;overflow:hidden}
+.notch{position:absolute;top:8px;left:50%;width:80px;height:20px;margin-left:-40px;background:#0F172A;border-radius:12px;z-index:9}
+.url{position:absolute;top:36px;left:12px;right:12px;height:26px;border-radius:8px;background:#F1F5F9;font-size:11px;color:#475569;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;z-index:5}
+#bar{position:absolute;top:64px;left:0;height:3px;background:#1D4ED8;z-index:6}
+.page{position:absolute;top:68px;left:0;right:0;bottom:0}
+.st{position:absolute;inset:0;opacity:0}
+.sk{background:#E2E8F0;border-radius:6px}
+#me{position:absolute;left:-6px;top:448px;width:236px;height:450px;z-index:7;transform-origin:50% 100%}
+#me img{position:absolute;left:0;bottom:0;width:100%;height:100%;object-fit:contain;object-position:50% 100%;opacity:0;filter:drop-shadow(0 14px 18px rgba(15,23,42,.25))}
+#tap{position:absolute;width:44px;height:44px;border-radius:50%;border:4px solid #1D4ED8;opacity:0;z-index:8}
+</style></head><body>
+<div id="bg"></div><div id="wash"></div>
+<img id="logo" src="logo.svg">
+<div id="cap"><div id="pov">POV:</div><div id="capt"></div></div>
+
+<div id="phone"><div id="scr">
+  <div class="notch"></div>
+  <div class="url">🔒 yourbusiness.com</div><div id="bar"></div>
+  <div class="page">
+    <!-- skeleton / loading -->
+    <div class="st" id="stLoad">
+      <div class="sk" style="margin:16px 14px 0;height:22px;width:60%"></div>
+      <div class="sk" style="margin:12px 14px 0;height:120px"></div>
+      <div class="sk" style="margin:12px 14px 0;height:12px;width:85%"></div>
+      <div class="sk" style="margin:8px 14px 0;height:12px;width:70%"></div>
+      <div style="position:absolute;left:0;right:0;top:250px;text-align:center">
+        <svg id="spin" width="56" height="56" viewBox="0 0 56 56"><circle cx="28" cy="28" r="22" fill="none" stroke="#E2E8F0" stroke-width="7"/><path d="M28 6a22 22 0 0 1 22 22" fill="none" stroke="#1D4ED8" stroke-width="7" stroke-linecap="round"/></svg>
+        <div id="ltime" style="font-family:'JetBrains Mono';font-weight:800;font-size:26px;margin-top:8px">0.0s</div>
+        <div style="font-size:12px;color:#64748B;font-weight:600">loading…</div>
+      </div>
+    </div>
+    <!-- site -->
+    <div class="st" id="stSite">
+      <div style="padding:10px 14px;display:flex;align-items:center;gap:6px;border-bottom:1px solid #F1F5F9"><div style="width:18px;height:18px;border-radius:5px;background:#F59E0B"></div><b style="font-size:13px">Sunny Side Bakery</b><span style="margin-left:auto;font-size:16px">☰</span></div>
+      <div style="height:112px;margin:10px 12px;border-radius:12px;background:linear-gradient(135deg,#FDE68A,#F59E0B);display:flex;align-items:flex-end;padding:10px"><b style="font-size:15px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.3)">Fresh bread every morning</b></div>
+      <div id="tiny" style="margin:0 14px;font-size:6.5px;line-height:1.35;color:#334155">Welcome to Sunny Side Bakery. We bake fresh bread, pastries and custom cakes every morning using local ingredients. Visit us Tuesday to Sunday from 7am, order online for pickup, or call us to book a custom cake for birthdays, weddings and events. Ask about our catering menu for offices and parties, gluten-free options and seasonal specials. Follow us for daily specials and weekend deals.</div>
+      <div id="callbtn" style="margin:14px 14px 0;background:#16A34A;color:#fff;border-radius:12px;padding:11px;text-align:center;font-weight:800;font-size:15px">📞 Call us</div>
+      <div id="phonenum" style="margin:12px 14px 0;font-size:12px;font-weight:700;color:#334155;text-align:center;position:relative">Call (555) 014-2387<div id="strike" style="position:absolute;left:30px;top:7px;height:3px;background:#DC2626;width:0"></div></div>
+      <div id="oldtag" style="position:absolute;left:50%;top:370px;transform:translateX(-50%) rotate(-6deg);background:#DC2626;color:#fff;font-weight:800;font-size:14px;border-radius:8px;padding:5px 10px;opacity:0">OLD NUMBER ❌</div>
+      <!-- magnifier -->
+      <div id="mag" style="position:absolute;left:34px;top:118px;width:176px;height:176px;border-radius:50%;border:6px solid #0F172A;background:#fff;overflow:hidden;opacity:0;box-shadow:0 10px 24px rgba(0,0,0,.3)">
+        <div style="position:absolute;left:14px;top:34px;width:150px;font-size:17px;font-weight:600;line-height:1.3;color:#334155">Welcome to Sunny Side Bakery. We bake fresh bread, pastries and custom cakes every morning using local ingredients.</div>
+      </div>
+      <!-- popup -->
+      <div id="pop" style="position:absolute;inset:0;background:rgba(15,23,42,.55);opacity:0;display:flex;align-items:center;justify-content:center">
+        <div id="popbox" style="width:210px;background:#fff;border-radius:16px;padding:16px;text-align:center;position:relative">
+          <div style="position:absolute;right:8px;top:4px;font-size:9px;color:#CBD5E1">✕</div>
+          <div style="font-size:28px">🎉</div><b style="font-size:16px;display:block;margin-top:4px">SIGN UP FOR OUR NEWSLETTER!!</b>
+          <div style="font-size:11px;color:#64748B;margin-top:4px">Get 10% off your first order</div>
+          <div style="margin-top:10px;border:1.5px solid #E2E8F0;border-radius:8px;padding:7px;font-size:11px;color:#94A3B8;text-align:left">Your email</div>
+          <div style="margin-top:8px;background:#F59E0B;color:#fff;border-radius:8px;padding:8px;font-weight:800;font-size:13px">SUBSCRIBE</div>
+        </div>
+      </div>
+    </div>
+    <!-- customers leaving -->
+    <div class="st" id="stSad" style="background:#FEF2F2;padding:22px 16px">
+      <div style="font-size:12px;font-weight:800;color:#64748B;letter-spacing:1px">THIS WEEK</div>
+      <div style="display:flex;gap:10px;margin-top:8px">
+        <div style="flex:1;background:#fff;border-radius:12px;padding:10px"><div style="font-size:11px;color:#64748B;font-weight:700">Calls</div><div class="sg" style="font-family:SG;font-size:34px;color:#DC2626">0</div></div>
+        <div style="flex:1;background:#fff;border-radius:12px;padding:10px"><div style="font-size:11px;color:#64748B;font-weight:700">Orders</div><div style="font-family:SG;font-size:34px;color:#DC2626">0</div></div>
+      </div>
+      <div class="leave" style="margin-top:16px;background:#fff;border-radius:12px;padding:10px;font-size:13px;font-weight:700">🚶 Visitor left after 3s</div>
+      <div class="leave" style="margin-top:8px;background:#fff;border-radius:12px;padding:10px;font-size:13px;font-weight:700">🚶 Visitor left after 5s</div>
+      <div class="leave" style="margin-top:8px;background:#fff;border-radius:12px;padding:10px;font-size:13px;font-weight:700">🚶 Went to a competitor</div>
+    </div>
+    <!-- checklist -->
+    <div class="st" id="stCheck" style="padding:22px 16px">
+      <b style="font-family:SG;font-size:20px">Check yours now 👇</b>
+      <div class="ck" style="margin-top:14px">⬜ Loads fast on a phone?</div>
+      <div class="ck">⬜ Text easy to read?</div>
+      <div class="ck">⬜ No annoying pop-up?</div>
+      <div class="ck">⬜ Call button works?</div>
+      <div class="ck">⬜ Phone number correct?</div>
+    </div>
+    <!-- follow -->
+    <div class="st" id="stFollow" style="display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;text-align:center">
+      <img src="logo.svg" style="width:200px">
+      <div style="font-weight:700;color:#475569;margin-top:10px;font-size:14px">Website tips that get you customers</div>
+      <div id="follow" style="margin-top:18px;background:#1D4ED8;color:#fff;border-radius:99px;padding:12px 28px;font-family:SG;font-size:18px">Follow</div>
+    </div>
+  </div>
+</div></div>
+<div id="tap"></div>
+<div id="me"></div>
+<div id="flash"></div>
+<style>.ck{margin-top:10px;background:#F8FAFC;border-radius:10px;padding:10px;font-size:13px;font-weight:700}</style>
+<script>
+const TM=__TIMING__;const T=TM.starts,D=TM.durs,END=TM.end,ENV=TM.env;
+const clamp=x=>Math.max(0,Math.min(1,x));const ease=x=>1-Math.pow(1-clamp(x),3);
+const back=x=>{x=clamp(x);const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+// pose per line (index into poses3x/pNN.png)
+const POSE=[2,15,17,13,22,27,26,7,6];
+const extraPose={1:[[0,14]]}; // line1 starts bored, then yawning
+const me=document.getElementById('me');
+[...new Set([...POSE,14,3])].forEach(n=>{const i=document.createElement('img');i.src=`poses3x/p${String(n).padStart(2,'0')}.png`;i.dataset.n=n;me.appendChild(i);});
+const CAPS=[
+ 'you finally check your website <b>on your phone</b> 📱',
+ 'it loads… and loads… and <i>loads</i> 🥱',
+ 'the text is <i>so tiny</i> 🔍',
+ 'then a <i>pop-up</i> covers everything 😤',
+ 'you press <b>Call</b>… <i>nothing happens</i> 😱',
+ 'and the phone number? <i>Your OLD one</i> 🤦',
+ 'this is what your <b>customers</b> see. <i>Every day.</i>',
+ 'check yours <b>right now</b> 👇 and comment what you found',
+ '<b>Follow</b> for more website tips 👋'];
+function lineAt(t){let k=0;for(let i=0;i<T.length;i++)if(t>=T[i]-0.05)k=i;return k;}
+function show(id,on){document.getElementById(id).style.opacity=on;}
+window.render=function(t){
+  const fi=Math.min(ENV.length-1,Math.floor(t*30));const e=ENV[fi]||0;const k=lineAt(t);const lt=t-T[k];
+  // caption
+  const c=document.getElementById('capt');if(c.dataset.k!=k){c.innerHTML=CAPS[k];c.dataset.k=k;}
+  const cp=k===0?1:ease(lt/0.18);c.style.opacity=cp;c.style.transform=`translateY(${(1-cp)*14}px) scale(${k===0?1.06-0.06*ease(t/0.35):1})`;
+  document.getElementById('pov').style.opacity=k<=6?1:0;
+  // pose
+  let pn=POSE[k];if(k===1&&lt<1.0)pn=14;
+  if(me.dataset.p!=pn){me.querySelectorAll('img').forEach(i=>i.style.opacity=(+i.dataset.n===pn)?1:0);me.dataset.p=pn;me.dataset.pt=t;}
+  const since=t-(+me.dataset.pt||0);const pop=1+0.12*Math.max(0,1-since/0.22)*Math.sin(Math.min(since/0.22,1)*Math.PI);
+  let shake=0;if(k===4&&lt>1.2&&lt<1.7)shake=Math.sin(t*80)*6;
+  const intro=k===0?0.9+0.1*ease(t/0.3):1;
+  me.style.transform=`translate(${shake}px,${-6*e+Math.sin(t*2.3)*2}px) rotate(${Math.sin(t*5)*1.2*e}deg) scale(${pop*intro})`;
+  // phone zoom punch on hook
+  const ph=document.getElementById('phone');const pz=k===0?1.08-0.08*ease(t/0.45):1;let phs=0;if(k===4&&lt>1.2&&lt<1.6)phs=Math.sin(t*90)*3;
+  ph.style.transform=`translateX(${phs}px) scale(${pz})`;
+  
+  // phone states
+  const loading=k<=1;show('stLoad',loading?1:0);show('stSite',(k>=2&&k<=5)?1:0);show('stSad',k===6?1:0);show('stCheck',k===7?1:0);show('stFollow',k===8?1:0);
+  const bar=document.getElementById('bar');bar.style.width=loading?(8+ (k===0?lt*6:18+lt*7))+'%':'0%';bar.style.opacity=loading?1:0;
+  document.getElementById('spin').style.transform=`rotate(${t*420}deg)`;
+  const lt0=Math.max(0,t-0.3)*3.2;const ltim=document.getElementById('ltime');ltim.textContent=lt0.toFixed(1)+'s';ltim.style.color=lt0>5?'#DC2626':'#0F172A';
+  // tiny text + magnifier (line 2)
+  const mg=document.getElementById('mag');const mp=k===2?ease((lt-0.6)/0.35):0;mg.style.opacity=mp;mg.style.transform=`translate(${Math.sin(t*2)*10}px,${Math.cos(t*1.7)*6}px) scale(${0.6+0.4*mp})`;
+  // popup (line 3)
+  const pp=(k===3||k===4&&false)?back((lt-0.1)/0.35):0;show('pop',k===3?clamp((lt-0.05)/0.15):0);document.getElementById('popbox').style.transform=`scale(${0.5+0.5*clamp(pp)})`;
+  // tap on call (line 4)
+  const tap=document.getElementById('tap');const cb=document.getElementById('callbtn');
+  if(k===4){const tt=lt-0.9;tap.style.left='318px';tap.style.top='540px';tap.style.opacity=tt>0&&tt<0.5?1-tt/0.5:0;tap.style.transform=`scale(${0.5+tt*2})`;cb.style.transform=`scale(${tt>0&&tt<0.15?0.94:1})`;cb.style.background=tt>0.2?'#94A3B8':'#16A34A';cb.textContent=tt>0.2?'📞 Call us … ⏳':'📞 Call us';}
+  else{tap.style.opacity=0;cb.style.background='#16A34A';cb.textContent='📞 Call us';cb.style.transform='';}
+  // old number (line 5)
+  document.getElementById('strike').style.width=(k===5?ease((lt-0.8)/0.3)*140:0)+'px';
+  const ot=document.getElementById('oldtag');const op=k===5?back((lt-1.1)/0.35):0;ot.style.opacity=clamp(op);ot.style.transform=`translateX(-50%) rotate(-6deg) scale(${clamp(op)})`;
+  // sad (line 6)
+  document.querySelectorAll('.leave').forEach((el,i)=>{const p=k===6?ease((lt-0.4-i*0.6)/0.3):0;el.style.opacity=p;el.style.transform=`translateX(${(1-p)*-30}px)`;});
+  // checklist ticks (line 7)
+  document.querySelectorAll('.ck').forEach((el,i)=>{const on=k===7&&lt>0.3+i*0.38;el.textContent=el.textContent.replace(/^(⬜|✅) /,on?'✅ ':'⬜ ');el.style.background=on?'#DCFCE7':'#F8FAFC';});
+  // follow (line 8)
+  const fb=document.getElementById('follow');const fp=k===8?back((lt-0.2)/0.4):0;fb.style.transform=`scale(${0.7+0.3*clamp(fp)+(k===8?0.04*Math.sin(t*9):0)})`;
+};
+render(0);
+</script></body></html>
